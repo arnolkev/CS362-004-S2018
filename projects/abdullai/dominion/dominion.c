@@ -654,7 +654,7 @@ void handleAdventurerCard(int currentPlayer, struct gameState *state, int *temph
     }
 
     drawCard(currentPlayer, state);
-    cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];//top card of hand is most recently drawn card.
+    cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]];//top card of hand is most recently drawn card.
     if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
       drawntreasure++;
     else {
@@ -680,7 +680,7 @@ void handleSmithy(int currentPlayer, struct gameState *state, int handPos) {
   }
 
   //discard card from hand
-  discardCard(handPos, currentPlayer, state, 0);
+  discardCard(handPos, currentPlayer, state, 1);
 }
 
 void handleVillage(int currentPlayer, struct gameState *state, int handPos) {
@@ -699,7 +699,7 @@ void handleGreatHall(int currentPlayer, struct gameState *state, int handPos) {
   drawCard(currentPlayer, state);
 
   //+1 Actions
-  state->numActions++;
+  state->numActions = +1;
 
   //discard card from hand
   discardCard(handPos, currentPlayer, state, 0);
@@ -716,7 +716,7 @@ void handleSteward(int currentPlayer, struct gameState *state, int handPos, int 
   } else {
     //trash 2 cards in hand
     discardCard(choice2, currentPlayer, state, 1);
-    discardCard(choice3, currentPlayer, state, 1);
+    discardCard(choice2, currentPlayer, state, 1);
   }
 
   //discard card from hand
