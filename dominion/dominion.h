@@ -78,6 +78,13 @@ struct gameState {
 
 struct gameState* newGame();
 
+void playSmithy(int currentplayer, struct gameState* state, int handPos);
+void playAdventurer(int currentplayer, struct gameState* state, int handPos);
+void playVillage(int currentplayer, struct gameState* state, int handPos);
+void playBaron(int currentplayer, struct gameState* state, int handPos, int choice1);
+void playSteward(int currentplayer, struct gameState* state, int handPos, int choice1, int choice2, int choice3);
+
+
 int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7,
 		  int k8, int k9, int k10);
 
