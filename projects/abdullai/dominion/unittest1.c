@@ -38,9 +38,15 @@ int main() {
 
     printf("TEST 1: Current player's has two new cards in hands:");
     handleAdventurerCard(currentPlayer, &currentGameState, temphand);
-    if (currentGameState.handCount[currentPlayer] == (savedGameState.deckCount[currentPlayer] + 2)) {
+    int newCards = 2;
+    int discardCards = 1;
+    int expected = savedGameState.deckCount[currentPlayer] + newCards - discardCards;
+    int actual = currentGameState.handCount[currentPlayer];
+    if (actual == expected) {
         success();
     } else {
+        printf("\nExpected number of cards in hands: %d\n", expected);
+        printf("Actual number of cards in hands: %d.", actual);
         failure();
     }
 
