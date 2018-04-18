@@ -56,7 +56,8 @@ int main() {
     handleAdventurerCard(currentPlayer, &currentGameState, temphand);
     topCard = currentGameState.hand[currentPlayer][currentGameState.handCount[currentPlayer] - 1];
     secondTopCard = currentGameState.hand[currentPlayer][currentGameState.handCount[currentPlayer] - 2];
-    if ((topCard == copper || topCard == silver || topCard == gold) && (secondTopCard == copper || secondTopCard == silver || secondTopCard == gold)) {
+    if ((topCard == copper || topCard == silver || topCard == gold) &&
+        (secondTopCard == copper || secondTopCard == silver || secondTopCard == gold)) {
         success();
     } else {
         failure();

@@ -4,21 +4,18 @@
 
 // This is handleSteward unit test
 
-//Rules:
-//Choice is given
-//Choice A: +2 cards and +2 coins
-//Choice B: user can trash any two cards in the hands
-//No state change should occur for other players
-//No state change should occur to the victory card piles and kingdom card piles
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "dominion.h"
+#include "test_utils.h"
 
-#define TESTFUNC "handleSteward"
 
 int main() {
-    int seed = 1000;
-    int currentPlayer = 0;
-    int kingdom[10] = {
+    printf("Testing handleSteward function...\n");
+
+    int kingdomCards[10] = {
             adventurer,
             smithy,
             village,
@@ -30,7 +27,73 @@ int main() {
             tribute,
             council_room
     };
-    struct gameState gameState, testGameState;
-    initializeGame(2, kingdom, seed, &gameState);
+    int seed = 1000;
+    int currentPlayer = 0;
+    struct gameState currentGameState, savedGameState;
+
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
+
+
+    printf("TEST 1: Choice A - current user draws two more cards:");
+    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
+    int newCards = 2;
+    int discardCards = 1;
+    int expected1 = savedGameState.handCount[currentPlayer] + newCards - discardCards;
+    int actual1 = currentGameState.handCount[currentPlayer];
+    if (expected1 == actual1) {
+        success();
+    } else {
+        printf("\nExpected # of cards in hands: %d\n", expected1);
+        printf("Actual # of cards in hands: %d.", actual1);
+        failure();
+    }
+
+
+    printf("TEST 2: Choice B - current user gains two coins:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    handleSteward(currentPlayer, &currentGameState, 0, 2, 0, 0);
+    int expected2 = savedGameState.coins + 2;
+    int actual2 = currentGameState.coins;
+    if (expected2 == actual2) {
+        success();
+    } else {
+        printf("\nExpected # of coins: %d\n", expected2);
+        printf("Actual # of coins: %d.", actual2);
+        failure();
+    }
+
+
+    printf("TEST 3: Choice C - current user can trash any two cards in the hands:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    int card1Position = 1;
+    int card2Position = 2;
+    handleSteward(currentPlayer, &currentGameState, 0, 0, card1Position, card2Position);
+    //expect both cards to be removed from player's hands
+    if (currentGameState.hand[currentPlayer][card1Position] == -1 && currentGameState.hand[currentPlayer][card2Position] == -1) {
+        success();
+    } else {
+        failure();
+    }
+
+
+    printf("TEST 4: Other player's state has not changed:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
+    otherPlayerNotChanged(&currentGameState, &savedGameState);
+
+
+    printf("TEST 5: No state change occurred to the victory card piles");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
+    victoryCardsNotChanged(&currentGameState, &savedGameState);
+
+
+    printf("TEST 6: No state change occurred to the kingdom card piles");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
+    kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
+
+
     return 0;
 }
