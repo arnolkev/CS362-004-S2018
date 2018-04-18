@@ -2,7 +2,7 @@ CFLAGS = -Wall -fpic -coverage -lm -std=c99
 
 default: tests.out
 
-tests.out: unittest1.c unittest2.c dominion.c rngs.c test_utils.c
+tests.out: unittest1.c unittest2.c unittest3.c dominion.c rngs.c test_utils.c
 	echo "Result for running Dominion tests:" > tests.out
 
 	echo "unittest1.c:" >> tests.out
@@ -13,6 +13,11 @@ tests.out: unittest1.c unittest2.c dominion.c rngs.c test_utils.c
 	echo "unittest2.c:" >> tests.out
 	gcc -o unittest2  dominion.c rngs.c test_utils.c unittest2.c $(CFLAGS)
 	./unittest2 >> tests.out
+	gcov dominion.c >> tests.out
+
+	echo "unittest3.c:" >> tests.out
+	gcc -o unittest3  dominion.c rngs.c test_utils.c unittest3.c $(CFLAGS)
+	./unittest3 >> tests.out
 	gcov dominion.c >> tests.out
 
 clean:

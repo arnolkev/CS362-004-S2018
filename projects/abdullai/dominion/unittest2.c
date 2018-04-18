@@ -38,11 +38,13 @@ int main() {
     handleSmithy(currentPlayer, &currentGameState, 0);
     int newCards = 3;
     int discardCards = 1;
-    if (currentGameState.handCount[currentPlayer] == (savedGameState.handCount[currentPlayer] + newCards - discardCards)) {
+    int expected = savedGameState.handCount[currentPlayer] + newCards - discardCards;
+    int actual = currentGameState.handCount[currentPlayer];
+    if (expected == actual) {
         success();
     } else {
-        printf("\nExpected # of cards in hands: %d\n", savedGameState.handCount[currentPlayer] + 3);
-        printf("Actual # of cards in hands: %d.", currentGameState.handCount[currentPlayer]);
+        printf("\nExpected # of cards in hands: %d\n", expected);
+        printf("Actual # of cards in hands: %d.", actual);
         failure();
     }
 
@@ -55,21 +57,6 @@ int main() {
     } else {
         failure();
     }
-
-    printf("TEST 3: Current player's discard pile should decrease by 1:");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    currentGameState.discardCount[currentPlayer] = 1;
-    handleSmithy(currentPlayer, &currentGameState, 0);
-    int actual = currentGameState.discardCount[currentPlayer];
-    int expected = 0;
-    if (actual == expected) {
-        success();
-    } else {
-        printf("\nExpected # of cards in discard pile: %d\n", expected);
-        printf("Actual # of cards in discard pile: %d.", actual);
-        failure();
-    }
-
 
     printf("TEST 3: Other player's state has not changed:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
