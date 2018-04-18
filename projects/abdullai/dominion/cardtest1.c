@@ -2,8 +2,7 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleSteward unit test
-
+// This is handleAdventurerCard unit test
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +12,7 @@
 
 
 int main() {
-    printf("Testing handleSteward function...\n");
+    printf("======================= Testing Adventurer Card ===================\n");
 
     int kingdomCards[10] = {
             adventurer,
@@ -29,6 +28,8 @@ int main() {
     };
     int seed = 1000;
     int currentPlayer = 0;
+    int temphand[MAX_HAND];
+    int topCard, secondTopCard;
     int bonus = 0;
     struct gameState currentGameState, savedGameState;
 
@@ -36,63 +37,57 @@ int main() {
     memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
-    printf("TEST 1: Choice A - current user draws two more cards:");
-    cardEffect(steward, 1, 0, 0, &currentGameState, 0, &bonus);
+    printf("TEST 1: Current player's has two new cards in hands:");
+    cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
     int newCards = 2;
     int discardCards = 1;
-    int expected1 = savedGameState.handCount[currentPlayer] + newCards - discardCards;
-    int actual1 = currentGameState.handCount[currentPlayer];
-    if (expected1 == actual1) {
+    int expected = savedGameState.deckCount[currentPlayer] + newCards - discardCards;
+    int actual = currentGameState.handCount[currentPlayer];
+    if (actual == expected) {
         success();
     } else {
-        printf("\nExpected # of cards in hands: %d\n", expected1);
-        printf("Actual # of cards in hands: %d.", actual1);
+        printf("\nExpected number of cards in hands: %d\n", expected);
+        printf("Actual number of cards in hands: %d.", actual);
         failure();
     }
 
 
-    printf("TEST 2: Choice B - current user gains two coins:");
+    printf("TEST 2: Two new cards are of treasure type:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    cardEffect(steward, 2, 0, 0, &currentGameState, 0, &bonus);
-    int expected2 = savedGameState.coins + 2;
-    int actual2 = currentGameState.coins;
-    if (expected2 == actual2) {
+    cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
+    topCard = currentGameState.hand[currentPlayer][currentGameState.handCount[currentPlayer] - 1];
+    secondTopCard = currentGameState.hand[currentPlayer][currentGameState.handCount[currentPlayer] - 2];
+    if ((topCard == copper || topCard == silver || topCard == gold) &&
+        (secondTopCard == copper || secondTopCard == silver || secondTopCard == gold)) {
         success();
     } else {
-        printf("\nExpected # of coins: %d\n", expected2);
-        printf("Actual # of coins: %d.", actual2);
         failure();
     }
 
 
-    printf("TEST 3: Choice C - current user can trash any two cards in the hands:");
+    printf("TEST 3: Current player's deck has changed:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    int card1Position = 1;
-    int card2Position = 2;
-    cardEffect(steward, 0, card1Position, card2Position, &currentGameState, 0, &bonus);
-    //expect both cards to be removed from player's hands
-    if (currentGameState.hand[currentPlayer][card1Position] == -1 && currentGameState.hand[currentPlayer][card2Position] == -1) {
+    cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
+    if (currentGameState.deckCount[currentPlayer] != savedGameState.deckCount[currentPlayer]) {
         success();
     } else {
         failure();
     }
-
 
     printf("TEST 4: Other player's state has not changed:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    cardEffect(steward, 1, 0, 0, &currentGameState, 0, &bonus);
+    cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
     otherPlayerNotChanged(&currentGameState, &savedGameState);
-
 
     printf("TEST 5: No state change occurred to the victory card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    cardEffect(steward, 1, 0, 0, &currentGameState, 0, &bonus);
+    cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
     victoryCardsNotChanged(&currentGameState, &savedGameState);
 
 
     printf("TEST 6: No state change occurred to the kingdom card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    cardEffect(steward, 1, 0, 0, &currentGameState, 0, &bonus);
+    cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
