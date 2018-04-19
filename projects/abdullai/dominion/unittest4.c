@@ -32,18 +32,18 @@ int main() {
     memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
-    printf("TEST 1: It should buy a card and place it into player's hands:");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    printf("TEST 1: It should buy a card and place it into the discard pile:");
     currentGameState.whoseTurn = currentPlayer;
     currentGameState.numBuys = 1;
     currentGameState.supplyCount[village] = 1;
     currentGameState.coins = 5;
-    int expectedHandCount =  savedGameState.handCount[currentPlayer] + 1;
-    int actualHandCount =  currentGameState.handCount[currentPlayer];
-    if (buyCard(village, &currentGameState) == 0 && expectedHandCount == actualHandCount) {
+    int status = buyCard(village, &currentGameState);
+    int expectedCount =  savedGameState.discardCount[currentPlayer] + 1;
+    int actualCount =  currentGameState.discardCount[currentPlayer];
+    if (status == 0 && expectedCount == actualCount) {
         success();
     } else {
-        printf("\nPurchased card did not appear in player's hands.");
+        printf("\nPurchased card did not appear in discard pile. Expected: %d, Actual %d", expectedCount, actualCount);
         failure();
     }
 
@@ -135,16 +135,6 @@ int main() {
     currentGameState.coins = 5;
     buyCard(province, &currentGameState);
     victoryCardsNotChanged(&currentGameState, &savedGameState);
-
-
-    printf("TEST 9: It should not cause side effects such as change to the kingdom card piles");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    currentGameState.whoseTurn = currentPlayer;
-    currentGameState.numBuys = 1;
-    currentGameState.supplyCount[village] = 1;
-    currentGameState.coins = 5;
-    buyCard(province, &currentGameState);
-    kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
     return 0;
