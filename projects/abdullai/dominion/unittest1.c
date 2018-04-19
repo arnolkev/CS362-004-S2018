@@ -26,7 +26,6 @@ int main() {
     };
     int seed = 1000;
     int currentPlayer = 0;
-    int temphand[MAX_HAND];
     struct gameState currentGameState, savedGameState;
 
     initializeGame(2, kingdomCards, seed, &currentGameState);

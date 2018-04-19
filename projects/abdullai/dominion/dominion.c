@@ -1180,7 +1180,6 @@ int gainCard(int supplyPos, struct gameState *state, int toFlag, int player) {
     // toFlag = 2 : add to hand
 
     if (toFlag == 1) {
-    if (toFlag == 1) {
         state->deck[player][state->deckCount[player]] = supplyPos;
         state->deckCount[player]++;
     } else if (toFlag == 2) {
