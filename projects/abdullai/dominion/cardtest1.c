@@ -26,7 +26,6 @@ int main() {
     };
     int seed = 1000;
     int currentPlayer = 0;
-    int temphand[MAX_HAND];
     int topCard, secondTopCard;
     int bonus = 0;
     struct gameState currentGameState, savedGameState;

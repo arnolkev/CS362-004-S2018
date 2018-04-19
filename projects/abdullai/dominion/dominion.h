@@ -140,4 +140,6 @@ void handleSteward(int currentPlayer, struct gameState *state, int handPos, int 
 
 int updateCoins(int player, struct gameState *state, int bonus);
 
+int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus);
+
 #endif

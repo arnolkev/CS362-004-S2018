@@ -25,7 +25,6 @@ int main() {
             council_room
     };
     int seed = 1000;
-    int currentPlayer = 0;
     struct gameState currentGameState, savedGameState;
 
     initializeGame(2, kingdomCards, seed, &currentGameState);
