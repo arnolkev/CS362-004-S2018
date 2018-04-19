@@ -2,8 +2,6 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleSmithy unit test
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +10,7 @@
 
 
 int main() {
-    printf("Testing handleSmithy function...\n");
+    printf("=============== Testing isGameOver Function ================\n");
 
     int kingdomCards[10] = {
             adventurer,
@@ -34,45 +32,53 @@ int main() {
     memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
-    printf("TEST 1: Current player should receive extra three cards:");
-    handleSmithy(currentPlayer, &currentGameState, 0);
-    int newCards = 3;
-    int discardCards = 1;
-    int expected = savedGameState.handCount[currentPlayer] + newCards - discardCards;
-    int actual = currentGameState.handCount[currentPlayer];
-    if (expected == actual) {
-        success();
-    } else {
-        printf("\nExpected # of cards in hands: %d\n", expected);
-        printf("Actual # of cards in hands: %d.", actual);
-        failure();
-    }
-
-
-    printf("TEST 2: Current player's deck should decrease by three cards:");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSmithy(currentPlayer, &currentGameState, 0);
-    if (currentGameState.deckCount[currentPlayer] == (savedGameState.deckCount[currentPlayer] - 3)) {
+    printf("TEST 1: It should return true if province pile is empty:");
+    currentGameState.supplyCount[province] = 0;
+    if (isGameOver(&currentGameState) == 1) {
         success();
     } else {
         failure();
     }
 
-    printf("TEST 3: Other player's state has not changed:");
+    printf("TEST 2: It should return false if there is at least one province card left (and supply piles are full):");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSmithy(currentPlayer, &currentGameState, 0);
-    otherPlayerNotChanged(&currentGameState, &savedGameState);
+    currentGameState.supplyCount[province] = 1;
+    if (isGameOver(&currentGameState) == 0) {
+        success();
+    } else {
+        failure();
+    }
 
-
-    printf("TEST 4: No state change occurred to the victory card piles");
+    printf("TEST 3: It should return true if at least three supply piles are empty");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSmithy(currentPlayer, &currentGameState, 0);
+    currentGameState.supplyCount[smithy] = 0;
+    currentGameState.supplyCount[gold] = 0;
+    currentGameState.supplyCount[tribute] = 0;
+    if (isGameOver(&currentGameState) == 1) {
+        success();
+    } else {
+        failure();
+    }
+
+    printf("TEST 4: It should return false if only two supply piles are empty");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.supplyCount[smithy] = 0;
+    currentGameState.supplyCount[gold] = 0;
+    if (isGameOver(&currentGameState) == 0) {
+        success();
+    } else {
+        failure();
+    }
+
+    printf("TEST 5: It should not cause side effects such as change to the victory card piles");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    isGameOver(&currentGameState);
     victoryCardsNotChanged(&currentGameState, &savedGameState);
 
 
-    printf("TEST 5: No state change occurred to the kingdom card piles");
+    printf("TEST 6: It should not cause side effects such as change to the kingdom card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSmithy(currentPlayer, &currentGameState, 0);
+    isGameOver(&currentGameState);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
     return 0;

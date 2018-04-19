@@ -2,8 +2,6 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleSteward unit test
-
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +11,7 @@
 
 
 int main() {
-    printf("Testing handleSteward function...\n");
+    printf("======================= Testing Steward Card ===================\n");
 
     int kingdomCards[10] = {
             adventurer,

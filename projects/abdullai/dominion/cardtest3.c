@@ -2,8 +2,6 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleVillage unit test
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +10,7 @@
 
 
 int main() {
-    printf("Testing handleVillage function...\n");
+    printf("======================= Testing Village Card ===================\n");
 
     int kingdomCards[10] = {
             adventurer,

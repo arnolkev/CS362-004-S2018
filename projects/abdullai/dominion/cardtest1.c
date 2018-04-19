@@ -2,8 +2,6 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleAdventurerCard unit test
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

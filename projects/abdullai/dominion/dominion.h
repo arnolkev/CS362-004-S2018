@@ -138,4 +138,6 @@ void handleGreatHall(int currentPlayer, struct gameState *state, int handPos);
 
 void handleSteward(int currentPlayer, struct gameState *state, int handPos, int choice1, int choice2, int choice3);
 
+int updateCoins(int player, struct gameState *state, int bonus);
+
 #endif

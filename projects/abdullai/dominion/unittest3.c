@@ -2,8 +2,6 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleVillage unit test
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +10,7 @@
 
 
 int main() {
-    printf("Testing handleVillage function...\n");
+    printf("=============== Testing updateCoins Function ================\n");
 
     int kingdomCards[10] = {
             adventurer,
@@ -34,50 +32,54 @@ int main() {
     memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
-    printf("TEST 1: Current player should receive one extra card:");
-    handleVillage(currentPlayer, &currentGameState, 0);
-    int newCards = 1;
-    int discardCards = 1;
-    int expected1 = savedGameState.handCount[currentPlayer] + newCards - discardCards;
-    int actual1 = currentGameState.handCount[currentPlayer];
-    if (expected1 == actual1) {
+    printf("TEST 1: It should not add new coins if the player does not have treasure cards in hands");
+    currentGameState.hand[currentPlayer][0] = village;
+    currentGameState.hand[currentPlayer][1] = minion;
+    currentGameState.hand[currentPlayer][2] = mine;
+    currentGameState.handCount[currentPlayer] = 3;
+    updateCoins(currentPlayer, &currentGameState, 0);
+    if (currentGameState.coins == 0) {
         success();
     } else {
-        printf("\nExpected # of cards in hands: %d\n", expected1);
-        printf("Actual # of cards in hands: %d.", actual1);
+        failure();
+    }
+
+    printf("TEST 2: It should handle all three kinds of treasury cards");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.hand[currentPlayer][0] = copper;
+    currentGameState.hand[currentPlayer][1] = silver;
+    currentGameState.hand[currentPlayer][2] = gold;
+    currentGameState.handCount[currentPlayer] = 3;
+    updateCoins(currentPlayer, &currentGameState, 0);
+    if (currentGameState.coins == 6) {
+        success();
+    } else {
+        failure();
+    }
+
+    printf("TEST 3: It should add given bonus on top of treasure cards");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.hand[currentPlayer][0] = copper;
+    currentGameState.hand[currentPlayer][1] = silver;
+    currentGameState.hand[currentPlayer][2] = gold;
+    currentGameState.handCount[currentPlayer] = 3;
+    updateCoins(currentPlayer, &currentGameState, 2);
+    if (currentGameState.coins == 8) {
+        success();
+    } else {
         failure();
     }
 
 
-    printf("TEST 2: Current player should receive two more actions:");
+    printf("TEST 5: It should not cause side effects such as change to the victory card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleVillage(currentPlayer, &currentGameState, 0);
-    int newActions = 2;
-    int expected2 = savedGameState.numActions + newActions;
-    int actual2 = currentGameState.numActions;
-    if (expected2 == actual2) {
-        success();
-    } else {
-        printf("\nExpected # of current actions: %d\n", expected2);
-        printf("Actual # of current actions: %d.", actual2);
-        failure();
-    }
-
-    printf("TEST 3: Other player's state has not changed:");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleVillage(currentPlayer, &currentGameState, 0);
-    otherPlayerNotChanged(&currentGameState, &savedGameState);
-
-
-    printf("TEST 4: No state change occurred to the victory card piles");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleVillage(currentPlayer, &currentGameState, 0);
+    updateCoins(currentPlayer, &currentGameState, 2);
     victoryCardsNotChanged(&currentGameState, &savedGameState);
 
 
-    printf("TEST 5: No state change occurred to the kingdom card piles");
+    printf("TEST 6: It should not cause side effects such as change to the kingdom card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleVillage(currentPlayer, &currentGameState, 0);
+    updateCoins(currentPlayer, &currentGameState, 2);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 

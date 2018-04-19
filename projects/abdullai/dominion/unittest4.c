@@ -2,9 +2,6 @@
 // Created by Illia Abdullaiev on 4/16/18.
 //
 
-// This is handleSteward unit test
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,7 +10,7 @@
 
 
 int main() {
-    printf("Testing handleSteward function...\n");
+    printf("=============== Testing buyCard Function ================\n");
 
     int kingdomCards[10] = {
             adventurer,
@@ -35,63 +32,118 @@ int main() {
     memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
-    printf("TEST 1: Choice A - current user draws two more cards:");
-    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
-    int newCards = 2;
-    int discardCards = 1;
-    int expected1 = savedGameState.handCount[currentPlayer] + newCards - discardCards;
-    int actual1 = currentGameState.handCount[currentPlayer];
-    if (expected1 == actual1) {
+    printf("TEST 1: It should buy a card and place it into player's hands:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[village] = 1;
+    currentGameState.coins = 5;
+    int expectedHandCount =  savedGameState.handCount[currentPlayer] + 1;
+    int actualHandCount =  currentGameState.handCount[currentPlayer];
+    if (buyCard(village, &currentGameState) == 0 && expectedHandCount == actualHandCount) {
         success();
     } else {
-        printf("\nExpected # of cards in hands: %d\n", expected1);
-        printf("Actual # of cards in hands: %d.", actual1);
+        printf("\nPurchased card did not appear in player's hands.");
         failure();
     }
 
 
-    printf("TEST 2: Choice B - current user gains two coins:");
+    printf("TEST 2: It should not allow to purchase cards if number of available buys is less than one:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSteward(currentPlayer, &currentGameState, 0, 2, 0, 0);
-    int expected2 = savedGameState.coins + 2;
-    int actual2 = currentGameState.coins;
-    if (expected2 == actual2) {
-        success();
-    } else {
-        printf("\nExpected # of coins: %d\n", expected2);
-        printf("Actual # of coins: %d.", actual2);
-        failure();
-    }
-
-
-    printf("TEST 3: Choice C - current user can trash any two cards in the hands:");
-    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    int card1Position = 1;
-    int card2Position = 2;
-    handleSteward(currentPlayer, &currentGameState, 0, 0, card1Position, card2Position);
-    //expect both cards to be removed from player's hands
-    if (currentGameState.hand[currentPlayer][card1Position] == -1 && currentGameState.hand[currentPlayer][card2Position] == -1) {
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 0;
+    currentGameState.supplyCount[village] = 1;
+    currentGameState.coins = 5;
+    if (buyCard(village, &currentGameState) == -1) {
         success();
     } else {
         failure();
     }
 
 
-    printf("TEST 4: Other player's state has not changed:");
+    printf("TEST 3: It should not allow to purchase a card if that card ran out of supply:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
-    otherPlayerNotChanged(&currentGameState, &savedGameState);
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[village] = 0;
+    currentGameState.coins = 5;
+    if (buyCard(village, &currentGameState) == -1) {
+        success();
+    } else {
+        failure();
+    }
 
 
-    printf("TEST 5: No state change occurred to the victory card piles");
+    printf("TEST 4: It should not allow to purchase a card if the user doesn't have enough coins:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[province] = 1;
+    currentGameState.coins = 7;
+    if (buyCard(province, &currentGameState) == -1) {
+        success();
+    } else {
+        failure();
+    }
+
+    printf("TEST 5: It should decrease number of available coins:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[province] = 1;
+    currentGameState.coins = 8;
+    buyCard(province, &currentGameState);
+    if (currentGameState.coins == 0) {
+        success();
+    } else {
+        failure();
+    }
+
+
+    printf("TEST 6: It should decrease number of available buys:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[province] = 1;
+    currentGameState.coins = 8;
+    buyCard(province, &currentGameState);
+    if (currentGameState.numBuys == 0) {
+        success();
+    } else {
+        failure();
+    }
+
+    printf("TEST 7: It should decrease number of available cards to purchase:");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[province] = 2;
+    currentGameState.coins = 8;
+    buyCard(province, &currentGameState);
+    if (currentGameState.supplyCount[province] == 1) {
+        success();
+    } else {
+        failure();
+    }
+
+
+    printf("TEST 8: It should not cause side effects such as change to the victory card piles");
+    memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[village] = 1;
+    currentGameState.coins = 5;
+    buyCard(province, &currentGameState);
     victoryCardsNotChanged(&currentGameState, &savedGameState);
 
 
-    printf("TEST 6: No state change occurred to the kingdom card piles");
+    printf("TEST 9: It should not cause side effects such as change to the kingdom card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
-    handleSteward(currentPlayer, &currentGameState, 0, 1, 0, 0);
+    currentGameState.whoseTurn = currentPlayer;
+    currentGameState.numBuys = 1;
+    currentGameState.supplyCount[village] = 1;
+    currentGameState.coins = 5;
+    buyCard(province, &currentGameState);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
