@@ -6,11 +6,11 @@
 #include <stdio.h>
 
 void success() {
-    printf(" SUCCESS\n");
+    printf(" TEST SUCCESSFULLY COMPLETED\n");
 }
 
 void failure() {
-    printf(" FAILURE\n");
+    printf(" TEST FAILED\n");
 }
 
 void otherPlayerNotChanged(struct gameState *currentGameState, struct gameState *savedGameState) {
