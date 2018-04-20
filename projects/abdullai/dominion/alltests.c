@@ -4,8 +4,7 @@
 #include "dominion.h"
 #include "test_utils.h"
 
-
-int main() {
+int test1() {
     printf("======================= Testing Adventurer Card ===================\n");
 
     int kingdomCards[10] = {
@@ -27,14 +26,10 @@ int main() {
     struct gameState currentGameState, savedGameState;
 
     initializeGame(2, kingdomCards, seed, &currentGameState);
-
-
-
-
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: Current player's has two new cards in hands:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
     int newCards = 2;
     int discardCards = 1;
@@ -88,14 +83,34 @@ int main() {
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
+    return 0;
+}
 
+int test2() {
+    printf("======================= Testing Smithy Card ===================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    int bonus = 0;
+    int currentPlayer = 0;
+    struct gameState currentGameState, savedGameState;
 
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: Current player should receive extra three cards:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     cardEffect(smithy, 0, 0, 0, &currentGameState, 0, &bonus);
     int newCards = 3;
     int discardCards = 1;
@@ -136,14 +151,34 @@ int main() {
     cardEffect(smithy, 0, 0, 0, &currentGameState, 0, &bonus);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
+    return 0;
+}
 
+int test3() {
+    printf("======================= Testing Village Card ===================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    int currentPlayer = 0;
+    int bonus = 0;
+    struct gameState currentGameState, savedGameState;
 
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: Current player should receive one extra card:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     cardEffect(village, 0, 0, 0, &currentGameState, 0, &bonus);
     int newCards = 1;
     int discardCards = 1;
@@ -190,14 +225,34 @@ int main() {
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
+    return 0;
+}
 
+int test4() {
+    printf("======================= Testing Steward Card ===================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    int currentPlayer = 0;
+    int bonus = 0;
+    struct gameState currentGameState, savedGameState;
 
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: Choice A - current user draws two more cards:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     cardEffect(steward, 1, 0, 0, &currentGameState, 0, &bonus);
     int newCards = 2;
     int discardCards = 1;
@@ -257,15 +312,33 @@ int main() {
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
+    return 0;
+}
 
+int test5() {
+    printf("=============== Testing handCard Function ================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    int currentPlayer = 0;
+    struct gameState currentGameState, savedGameState;
 
-
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: It should return the card by given position:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     currentGameState.hand[currentPlayer][0] = smithy;
     currentGameState.whoseTurn = currentPlayer;
     if (handCard(0, &currentGameState) == smithy) {
@@ -285,16 +358,32 @@ int main() {
     handCard(0, &currentGameState);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
+    return 0;
+}
 
+int test6() {
+    printf("=============== Testing isGameOver Function ================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    struct gameState currentGameState, savedGameState;
 
-
-
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: It should return true if province pile is empty:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     currentGameState.supplyCount[province] = 0;
     if (isGameOver(&currentGameState) == 1) {
         success();
@@ -343,17 +432,33 @@ int main() {
     isGameOver(&currentGameState);
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
+    return 0;
+}
 
+int test7() {
+    printf("=============== Testing updateCoins Function ================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    int currentPlayer = 0;
+    struct gameState currentGameState, savedGameState;
 
-
-
-
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: It should not add new coins if the player does not have treasure cards in hands");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     currentGameState.hand[currentPlayer][0] = village;
     currentGameState.hand[currentPlayer][1] = minion;
     currentGameState.hand[currentPlayer][2] = mine;
@@ -404,15 +509,33 @@ int main() {
     kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
 
 
+    return 0;
+}
 
+int test8() {
+    printf("=============== Testing buyCard Function ================\n");
 
+    int kingdomCards[10] = {
+            adventurer,
+            smithy,
+            village,
+            steward,
+            minion,
+            mine,
+            feast,
+            remodel,
+            tribute,
+            council_room
+    };
+    int seed = 1000;
+    int currentPlayer = 0;
+    struct gameState currentGameState, savedGameState;
 
-
-
+    initializeGame(2, kingdomCards, seed, &currentGameState);
+    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
 
 
     printf("TEST 1: It should buy a card and place it into the discard pile:");
-    memcpy(&savedGameState, &currentGameState, sizeof(struct gameState));
     currentGameState.whoseTurn = currentPlayer;
     currentGameState.numBuys = 1;
     currentGameState.supplyCount[village] = 1;
@@ -517,7 +640,18 @@ int main() {
     victoryCardsNotChanged(&currentGameState, &savedGameState);
 
 
+    return 0;
+}
 
 
+int main() {
+    test1();
+    test2();
+    test3();
+    test4();
+    test5();
+    test6();
+    test7();
+    test8();
     return 0;
 }
