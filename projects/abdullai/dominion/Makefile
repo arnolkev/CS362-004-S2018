@@ -8,42 +8,42 @@ unittestresults.out: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c
 	echo "unittest1.c:" >> unittestresults.out
 	gcc -o unittest1  dominion.c rngs.c test_utils.c unittest1.c $(CFLAGS)
 	./unittest1 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "unittest2.c:" >> unittestresults.out
 	gcc -o unittest2  dominion.c rngs.c test_utils.c unittest2.c $(CFLAGS)
 	./unittest2 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "unittest3.c:" >> unittestresults.out
 	gcc -o unittest3  dominion.c rngs.c test_utils.c unittest3.c $(CFLAGS)
 	./unittest3 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "unittest4.c:" >> unittestresults.out
 	gcc -o unittest4  dominion.c rngs.c test_utils.c unittest4.c $(CFLAGS)
 	./unittest4 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "cardtest1.c:" >> unittestresults.out
 	gcc -o cardtest1  dominion.c rngs.c test_utils.c cardtest1.c $(CFLAGS)
 	./cardtest1 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "cardtest2.c:" >> unittestresults.out
 	gcc -o cardtest2  dominion.c rngs.c test_utils.c cardtest2.c $(CFLAGS)
 	./cardtest2 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "cardtest3.c:" >> unittestresults.out
 	gcc -o cardtest3  dominion.c rngs.c test_utils.c cardtest3.c $(CFLAGS)
 	./cardtest3 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 	echo "cardtest4.c:" >> unittestresults.out
 	gcc -o cardtest4  dominion.c rngs.c test_utils.c cardtest4.c $(CFLAGS)
 	./cardtest4 >> unittestresults.out
-	gcov dominion.c >> unittestresults.out
+	gcov dominion.c >> unittestresults.out -b -k -j
 
 clean:
 	rm unittestresults.out
