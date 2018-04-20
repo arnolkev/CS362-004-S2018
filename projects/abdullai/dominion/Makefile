@@ -1,4 +1,4 @@
-CFLAGS = -Wall -fpic -coverage -lm -std=c99 -fprofile-arcs
+CFLAGS = -Wall -fpic -coverage -lm -std=c99
 
 default: unittestresults.out
 
