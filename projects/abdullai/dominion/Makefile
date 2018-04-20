@@ -47,6 +47,7 @@ unittestresults.out: alltests.c  unittest1.c unittest2.c unittest3.c unittest4.c
 
 	gcc -o alltests  dominion.c rngs.c test_utils.c alltests.c $(CFLAGS)
 	./alltests >> alltestsresults.out
+	gcov dominion.c >> alltestsresults.out -b
 
 clean:
 	rm unittestresults.out
