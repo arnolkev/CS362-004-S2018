@@ -45,7 +45,7 @@ unittestresults.out: alltests.c  unittest1.c unittest2.c unittest3.c unittest4.c
 	./cardtest4 >> unittestresults.out
 	gcov dominion.c >> unittestresults.out -b
 
-	gcc -o alltests.c  dominion.c rngs.c test_utils.c cardtest4.c $(CFLAGS)
+	gcc -o alltests  dominion.c rngs.c test_utils.c alltests.c $(CFLAGS)
 	./alltests >> alltestsresults.out
 
 clean:
