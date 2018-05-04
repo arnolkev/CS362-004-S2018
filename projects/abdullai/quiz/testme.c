@@ -3,14 +3,30 @@
 #include<stdlib.h>
 #include<time.h>
 
+int generateRandomNumber(int min, int max) {
+    return (rand() % (max + 1 - min)) + min;
+}
+
 char inputChar() {
-    // TODO: rewrite this function
-    return ' ';
+    //get a random character among the ones that testme function is looking for
+    char *testChars = "[({ ax})]rste";
+    int length = strlen(testChars);
+    int index = generateRandomNumber(0, length - 1);
+    return testChars[index];
 }
 
 char *inputString() {
-    // TODO: rewrite this function
-    return "";
+    //testme function is testing the strings that have a maximum length of 6 characters
+    //so I will be generating such strings
+    int LENGTH = 5;
+    char *randomString = (char *) malloc(LENGTH + 1);
+
+    //fill in the string with random chars
+    for (int i = 0; i < LENGTH; i++) {
+        randomString[i] = inputChar();
+    }
+
+    return randomString;
 }
 
 void testme() {
@@ -42,7 +58,6 @@ void testme() {
         }
     }
 }
-
 
 int main(int argc, char *argv[]) {
     srand(time(NULL));

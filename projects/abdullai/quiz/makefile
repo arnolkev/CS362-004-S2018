@@ -5,8 +5,9 @@ default: quiz.out
 quiz.out: testme.c
 	echo "Running tests for testme.c" > quiz.out
 	gcc -o random_tester  testme.c $(CFLAGS)
-	./random_tester >> quiz.out
-	gcov testme.c >> quiz.out -b
+	# ./random_tester >> quiz.out
+	./random_tester
+	# gcov testme.c >> quiz.out -b
 
 
 clean:
