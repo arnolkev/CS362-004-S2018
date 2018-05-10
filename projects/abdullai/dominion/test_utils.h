@@ -12,8 +12,10 @@ void success();
 void failure();
 
 // Check that playing a card does not produce side effects.
-void otherPlayerNotChanged(struct gameState *currentGameState, struct gameState *savedGameState);
-void victoryCardsNotChanged(struct gameState *currentGameState, struct gameState *savedGameState);
-void kingdomCardsNotChanged(struct gameState *currentGameState, struct gameState *savedGameState, int kingdomCards[10]);
+int otherPlayerNotChanged(struct gameState *currentGameState, struct gameState *savedGameState, int NOISY);
+int victoryCardsNotChanged(struct gameState *currentGameState, struct gameState *savedGameState, int NOISY);
+int kingdomCardsNotChanged(struct gameState *currentGameState, struct gameState *savedGameState, int kingdomCards[10], int NOISY);
+int generateRandomNumber(int min, int max);
+int * getRandomKingdomCards();
 
 #endif //CS362_004_S2018_TEST_UTILS_H
