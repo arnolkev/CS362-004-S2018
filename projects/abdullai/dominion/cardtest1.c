@@ -74,18 +74,18 @@ int main() {
     printf("TEST 4: Other player's state has not changed:");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
     cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
-    otherPlayerNotChanged(&currentGameState, &savedGameState);
+    otherPlayerNotChanged(&currentGameState, &savedGameState, 0);
 
     printf("TEST 5: No state change occurred to the victory card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
     cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
-    victoryCardsNotChanged(&currentGameState, &savedGameState);
+    victoryCardsNotChanged(&currentGameState, &savedGameState, 0);
 
 
     printf("TEST 6: No state change occurred to the kingdom card piles");
     memcpy(&currentGameState, &savedGameState, sizeof(struct gameState));
     cardEffect(adventurer, 0, 0, 0, &currentGameState, 0, &bonus);
-    kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards);
+    kingdomCardsNotChanged(&currentGameState, &savedGameState, kingdomCards, 0);
 
 
     return 0;

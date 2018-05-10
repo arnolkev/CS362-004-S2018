@@ -1,9 +1,13 @@
 #include "dominion.h"
 #include "dominion_helpers.h"
+#include "adventurer.h"
+#include "village.h"
+#include "smithy.h"
 #include "rngs.h"
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+
 
 int compare(const void *a, const void *b) {
     if (*(int *) a > *(int *) b)
@@ -584,57 +588,6 @@ int getCost(int cardNumber) {
     }
 
     return -1;
-}
-
-void handleAdventurerCard(int currentPlayer, struct gameState *state, int *temphand) {
-    int drawntreasure = 0;
-    int cardDrawn;
-    int z = 0;// this is the counter for the temp hand
-
-    while (drawntreasure < 2) {
-        if (state->deckCount[currentPlayer] < 1) {//if the deck is empty we need to shuffle discard and add to deck
-            shuffle(currentPlayer, state);
-        }
-
-        drawCard(currentPlayer, state);
-        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer] - 1];//top card of hand is most recently drawn card.
-        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
-            drawntreasure++;
-        else {
-            temphand[z] = cardDrawn;
-            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-            z++;
-        }
-    }
-
-    while (z - 1 >= 0) {
-        state->discard[currentPlayer][state->discardCount[currentPlayer]++] = temphand[z -
-                                                                                       1]; // discard all cards in play that have been drawn
-        z = z - 1;
-    }
-}
-
-void handleSmithy(int currentPlayer, struct gameState *state, int handPos) {
-    int i = 0;
-
-    //+3 Cards
-    for (i = 0; i < 3; i++) {
-        drawCard(currentPlayer, state);
-    }
-
-    //discard card from hand
-    discardCard(handPos, currentPlayer, state, 1);
-}
-
-void handleVillage(int currentPlayer, struct gameState *state, int handPos) {
-    //+1 Card
-    drawCard(currentPlayer, state);
-
-    //+2 Actions
-    state->numActions = state->numActions + 2;
-
-    //discard played card from hand
-    discardCard(handPos, currentPlayer, state, 0);
 }
 
 void handleGreatHall(int currentPlayer, struct gameState *state, int handPos) {
