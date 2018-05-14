@@ -29,6 +29,43 @@ runtests: testDrawCard
 	gcov dominion.c >> unittestresult.out
 	cat dominion.c.gcov >> unittestresult.out
 
+randomtestresults.out: randomtestadventurer.c randomtestcard1.c randomtestcard2.c dominion.c rngs.c
+	echo "Result for running Dominion test suit:" > randomtestresults.out
+
+	echo "randomtestadventurer.c:" >> randomtestresults.out
+	gcc -o randomtestadventurer -g  randomtestadventurer.c dominion.c rngs.c $(CFLAGS)
+	./randomtestadventurer >> randomtestresults.out
+	gcov randomtestadventurer.c >> randomtestresults.out
+	gcov dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+	gcov -b -c randomtestadventurer.c >> randomtestresults.out
+	gcov -b -c dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+	echo "randomtestcard1.c:" >> randomtestresults.out
+	gcc -o randomtestcard1 -g  randomtestcard1.c dominion.c rngs.c $(CFLAGS)
+	./randomtestcard1 >> randomtestresults.out
+	gcov randomtestcard1.c >> randomtestresults.out
+	gcov dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+	gcov -b -c randomtestcard1.c >> randomtestresults.out
+	gcov -b -c dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+	echo "randomtestcard2.c:" >> randomtestresults.out
+	gcc -o randomtestcard2 -g  randomtestcard2.c dominion.c rngs.c $(CFLAGS)
+	./randomtestcard2 >> randomtestresults.out
+	gcov randomtestcard2.c >> randomtestresults.out
+	gcov dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+	gcov -b -c randomtestcard2.c >> randomtestresults.out
+	gcov -b -c dominion.c >> randomtestresults.out
+	cat dominion.c.gcov >> randomtestresults.out
+
+
 
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
@@ -36,4 +73,4 @@ player: player.c interface.o
 all: playdom player 
 
 clean:
-	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe randomtestadventurer randomtestadventurer.exe randomtestcard1 randomtestcard1.exe randomtestcard2 randomtestcard2.exe 
