@@ -2,7 +2,7 @@ cardtest1.c:
 ======================= Testing Adventurer Card ===================
 TEST 1: Current player's has two new cards in hands:
 Expected number of cards in hands: 6
-Actual number of cards in hands: 7. TEST FAILED
+Actual number of cards in hands: 5. TEST FAILED
 
 TEST 2: Two new cards are of treasure type: TEST SUCCESSFULLY COMPLETED
 
@@ -16,9 +16,11 @@ TEST 6: No state change occurred to the kingdom card piles TEST SUCCESSFULLY COM
 
 cardtest2.c:
 ======================= Testing Smithy Card ===================
-TEST 1: Current player should receive extra three cards: TEST SUCCESSFULLY COMPLETED
+TEST 1: Current player should receive extra three cards:
+Expected # of cards in hands: 7
+Actual # of cards in hands: 8. TEST FAILED
 
-TEST 2: Current player's deck should decrease by three cards: TEST SUCCESSFULLY COMPLETED
+TEST 2: Current player's deck should decrease by three cards: TEST FAILED
 
 TEST 3: Other player's state has not changed: TEST SUCCESSFULLY COMPLETED
 

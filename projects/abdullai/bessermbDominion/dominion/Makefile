@@ -2,7 +2,7 @@ CFLAGS = -Wall -fpic -coverage -lm -std=c99
 
 default: cleanall tests
 
-tests: randomtestadventurer.c randomtestcard1.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.c rngs.c test_utils.c
+tests: alltests.c randomtestadventurer.c randomtestcard1.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.c rngs.c test_utils.c
 	echo "cardtest1.c:" >> cardtests.out
 	gcc -o cardtest1  dominion.c rngs.c test_utils.c cardtest1.c $(CFLAGS)
 	./cardtest1 >> cardtests.out
@@ -27,6 +27,10 @@ tests: randomtestadventurer.c randomtestcard1.c cardtest1.c cardtest2.c cardtest
 
 	gcc -o randomtestcard2 dominion.c rngs.c test_utils.c randomtestcard2.c $(CFLAGS)
 	./randomtestcard2 >> randomtestcard2.out
+
+	gcc -o alltests dominion.c rngs.c test_utils.c alltests.c $(CFLAGS)
+	./alltests >> alltestsresults.out
+	gcov dominion.c >> alltestscoverage.out -b
 
 clean:
 	rm -f cardtests.out randomtestadventurer.out randomtestcard1.out randomtestcard2.out
