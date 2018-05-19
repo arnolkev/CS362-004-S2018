@@ -1,0 +1,54 @@
+cardtest1.c:
+======================= Testing Adventurer Card ===================
+TEST 1: Current player's has two new cards in hands:
+Expected number of cards in hands: 6
+Actual number of cards in hands: 7. TEST FAILED
+
+TEST 2: Two new cards are of treasure type: TEST SUCCESSFULLY COMPLETED
+
+TEST 3: Current player's deck has changed: TEST SUCCESSFULLY COMPLETED
+
+TEST 4: Other player's state has not changed: TEST SUCCESSFULLY COMPLETED
+
+TEST 5: No state change occurred to the victory card piles TEST SUCCESSFULLY COMPLETED
+
+TEST 6: No state change occurred to the kingdom card piles TEST SUCCESSFULLY COMPLETED
+
+cardtest2.c:
+======================= Testing Smithy Card ===================
+TEST 1: Current player should receive extra three cards: TEST SUCCESSFULLY COMPLETED
+
+TEST 2: Current player's deck should decrease by three cards: TEST SUCCESSFULLY COMPLETED
+
+TEST 3: Other player's state has not changed: TEST SUCCESSFULLY COMPLETED
+
+TEST 4: No state change occurred to the victory card piles TEST SUCCESSFULLY COMPLETED
+
+TEST 5: No state change occurred to the kingdom card piles TEST SUCCESSFULLY COMPLETED
+
+cardtest3.c:
+======================= Testing Village Card ===================
+TEST 1: Current player should receive one extra card: TEST SUCCESSFULLY COMPLETED
+
+TEST 2: Current player should receive two more actions: TEST SUCCESSFULLY COMPLETED
+
+TEST 3: Other player's state has not changed: TEST SUCCESSFULLY COMPLETED
+
+TEST 4: No state change occurred to the victory card piles TEST SUCCESSFULLY COMPLETED
+
+TEST 5: No state change occurred to the kingdom card piles TEST SUCCESSFULLY COMPLETED
+
+cardtest4.c:
+======================= Testing Steward Card ===================
+TEST 1: Choice A - current user draws two more cards: TEST SUCCESSFULLY COMPLETED
+
+TEST 2: Choice B - current user gains two coins: TEST SUCCESSFULLY COMPLETED
+
+TEST 3: Choice C - current user can trash any two cards in the hands: TEST FAILED
+
+TEST 4: Other player's state has not changed: TEST SUCCESSFULLY COMPLETED
+
+TEST 5: No state change occurred to the victory card piles TEST SUCCESSFULLY COMPLETED
+
+TEST 6: No state change occurred to the kingdom card piles TEST SUCCESSFULLY COMPLETED
+

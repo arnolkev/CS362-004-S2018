@@ -1,0 +1,6009 @@
+======================= Testing Village Card ===================
+Iteration 1. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 341
+Actual # of cards in hands: 343.
+SEED: 868.
+ TEST FAILED
+
+Iteration 2. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 279
+Actual # of cards in hands: 281.
+SEED: 683.
+ TEST FAILED
+
+Iteration 3. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 480
+Actual # of cards in hands: 482.
+SEED: 154.
+ TEST FAILED
+
+Iteration 4. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 246
+Actual # of cards in hands: 248.
+SEED: 974.
+ TEST FAILED
+
+Iteration 5. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 169
+Actual # of cards in hands: 171.
+SEED: 425.
+ TEST FAILED
+
+Iteration 6. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 25
+Actual # of cards in hands: 27.
+SEED: 732.
+ TEST FAILED
+
+Iteration 7. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 136
+Actual # of cards in hands: 138.
+SEED: 861.
+ TEST FAILED
+
+Iteration 8. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 95
+Actual # of cards in hands: 97.
+SEED: 937.
+ TEST FAILED
+
+Iteration 9. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 189
+Actual # of cards in hands: 191.
+SEED: 24.
+ TEST FAILED
+
+Iteration 10. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 145
+Actual # of cards in hands: 147.
+SEED: 902.
+ TEST FAILED
+
+Iteration 11. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 295
+Actual # of cards in hands: 297.
+SEED: 50.
+ TEST FAILED
+
+Iteration 12. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 400
+Actual # of cards in hands: 402.
+SEED: 78.
+ TEST FAILED
+
+Iteration 13. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 114
+Actual # of cards in hands: 116.
+SEED: 499.
+ TEST FAILED
+
+Iteration 14. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 322
+Actual # of cards in hands: 324.
+SEED: 272.
+ TEST FAILED
+
+Iteration 15. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 117
+Actual # of cards in hands: 119.
+SEED: 445.
+ TEST FAILED
+
+Iteration 16. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 320
+Actual # of cards in hands: 322.
+SEED: 68.
+ TEST FAILED
+
+Iteration 17. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 314
+Actual # of cards in hands: 316.
+SEED: 305.
+ TEST FAILED
+
+Iteration 18. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 395
+Actual # of cards in hands: 397.
+SEED: 783.
+ TEST FAILED
+
+Iteration 19. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 386
+Actual # of cards in hands: 388.
+SEED: 753.
+ TEST FAILED
+
+Iteration 20. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 421
+Actual # of cards in hands: 423.
+SEED: 795.
+ TEST FAILED
+
+Iteration 21. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 180
+Actual # of cards in hands: 182.
+SEED: 245.
+ TEST FAILED
+
+Iteration 22. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 34
+Actual # of cards in hands: 36.
+SEED: 347.
+ TEST FAILED
+
+Iteration 23. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 309
+Actual # of cards in hands: 311.
+SEED: 304.
+ TEST FAILED
+
+Iteration 24. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 440
+Actual # of cards in hands: 442.
+SEED: 561.
+ TEST FAILED
+
+Iteration 25. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 256
+Actual # of cards in hands: 258.
+SEED: 691.
+ TEST FAILED
+
+Iteration 26. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 7
+Actual # of cards in hands: 9.
+SEED: 80.
+ TEST FAILED
+
+Iteration 27. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 309
+Actual # of cards in hands: 311.
+SEED: 784.
+ TEST FAILED
+
+Iteration 28. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 276
+Actual # of cards in hands: 278.
+SEED: 418.
+ TEST FAILED
+
+Iteration 29. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 318
+Actual # of cards in hands: 320.
+SEED: 721.
+ TEST FAILED
+
+Iteration 30. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 151
+Actual # of cards in hands: 153.
+SEED: 736.
+ TEST FAILED
+
+Iteration 31. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 379
+Actual # of cards in hands: 381.
+SEED: 23.
+ TEST FAILED
+
+Iteration 32. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 323
+Actual # of cards in hands: 325.
+SEED: 914.
+ TEST FAILED
+
+Iteration 33. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 371
+Actual # of cards in hands: 373.
+SEED: 397.
+ TEST FAILED
+
+Iteration 34. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 267
+Actual # of cards in hands: 269.
+SEED: 626.
+ TEST FAILED
+
+Iteration 35. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 221
+Actual # of cards in hands: 223.
+SEED: 648.
+ TEST FAILED
+
+Iteration 36. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 305
+Actual # of cards in hands: 307.
+SEED: 854.
+ TEST FAILED
+
+Iteration 37. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 456
+Actual # of cards in hands: 458.
+SEED: 304.
+ TEST FAILED
+
+Iteration 38. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 115
+Actual # of cards in hands: 117.
+SEED: 937.
+ TEST FAILED
+
+Iteration 39. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 64
+Actual # of cards in hands: 66.
+SEED: 278.
+ TEST FAILED
+
+Iteration 40. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 304
+Actual # of cards in hands: 306.
+SEED: 408.
+ TEST FAILED
+
+Iteration 41. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 325
+Actual # of cards in hands: 327.
+SEED: 641.
+ TEST FAILED
+
+Iteration 42. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 204
+Actual # of cards in hands: 206.
+SEED: 885.
+ TEST FAILED
+
+Iteration 43. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 281
+Actual # of cards in hands: 283.
+SEED: 759.
+ TEST FAILED
+
+Iteration 44. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 380
+Actual # of cards in hands: 382.
+SEED: 759.
+ TEST FAILED
+
+Iteration 45. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 247
+Actual # of cards in hands: 249.
+SEED: 226.
+ TEST FAILED
+
+Iteration 46. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 272
+Actual # of cards in hands: 274.
+SEED: 673.
+ TEST FAILED
+
+Iteration 47. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 206
+Actual # of cards in hands: 208.
+SEED: 670.
+ TEST FAILED
+
+Iteration 48. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 284
+Actual # of cards in hands: 286.
+SEED: 53.
+ TEST FAILED
+
+Iteration 49. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 191
+Actual # of cards in hands: 193.
+SEED: 730.
+ TEST FAILED
+
+Iteration 50. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 353
+Actual # of cards in hands: 355.
+SEED: 917.
+ TEST FAILED
+
+Iteration 51. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 415
+Actual # of cards in hands: 417.
+SEED: 30.
+ TEST FAILED
+
+Iteration 52. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 374
+Actual # of cards in hands: 376.
+SEED: 565.
+ TEST FAILED
+
+Iteration 53. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 167
+Actual # of cards in hands: 169.
+SEED: 439.
+ TEST FAILED
+
+Iteration 54. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 368
+Actual # of cards in hands: 370.
+SEED: 780.
+ TEST FAILED
+
+Iteration 55. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 229
+Actual # of cards in hands: 231.
+SEED: 335.
+ TEST FAILED
+
+Iteration 56. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 351
+Actual # of cards in hands: 353.
+SEED: 545.
+ TEST FAILED
+
+Iteration 57. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 443
+Actual # of cards in hands: 445.
+SEED: 937.
+ TEST FAILED
+
+Iteration 58. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 325
+Actual # of cards in hands: 327.
+SEED: 852.
+ TEST FAILED
+
+Iteration 59. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 282
+Actual # of cards in hands: 284.
+SEED: 65.
+ TEST FAILED
+
+Iteration 60. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 385
+Actual # of cards in hands: 387.
+SEED: 384.
+ TEST FAILED
+
+Iteration 61. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 385
+Actual # of cards in hands: 387.
+SEED: 745.
+ TEST FAILED
+
+Iteration 62. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 326
+Actual # of cards in hands: 328.
+SEED: 611.
+ TEST FAILED
+
+Iteration 63. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 35
+Actual # of cards in hands: 37.
+SEED: 730.
+ TEST FAILED
+
+Iteration 64. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 366
+Actual # of cards in hands: 368.
+SEED: 600.
+ TEST FAILED
+
+Iteration 65. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 416
+Actual # of cards in hands: 418.
+SEED: 518.
+ TEST FAILED
+
+Iteration 66. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 80
+Actual # of cards in hands: 82.
+SEED: 782.
+ TEST FAILED
+
+Iteration 67. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 301
+Actual # of cards in hands: 303.
+SEED: 71.
+ TEST FAILED
+
+Iteration 68. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 322
+Actual # of cards in hands: 324.
+SEED: 575.
+ TEST FAILED
+
+Iteration 69. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 413
+Actual # of cards in hands: 415.
+SEED: 973.
+ TEST FAILED
+
+Iteration 70. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 477
+Actual # of cards in hands: 479.
+SEED: 251.
+ TEST FAILED
+
+Iteration 71. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 5
+Actual # of cards in hands: 7.
+SEED: 25.
+ TEST FAILED
+
+Iteration 72. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 455
+Actual # of cards in hands: 457.
+SEED: 697.
+ TEST FAILED
+
+Iteration 73. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 218
+Actual # of cards in hands: 220.
+SEED: 221.
+ TEST FAILED
+
+Iteration 74. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 49
+Actual # of cards in hands: 51.
+SEED: 602.
+ TEST FAILED
+
+Iteration 75. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 467
+Actual # of cards in hands: 469.
+SEED: 692.
+ TEST FAILED
+
+Iteration 76. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 313
+Actual # of cards in hands: 315.
+SEED: 292.
+ TEST FAILED
+
+Iteration 77. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 71
+Actual # of cards in hands: 73.
+SEED: 114.
+ TEST FAILED
+
+Iteration 78. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 253
+Actual # of cards in hands: 255.
+SEED: 721.
+ TEST FAILED
+
+Iteration 79. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 312
+Actual # of cards in hands: 314.
+SEED: 365.
+ TEST FAILED
+
+Iteration 80. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 392
+Actual # of cards in hands: 394.
+SEED: 984.
+ TEST FAILED
+
+Iteration 81. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 92
+Actual # of cards in hands: 94.
+SEED: 525.
+ TEST FAILED
+
+Iteration 82. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 391
+Actual # of cards in hands: 393.
+SEED: 623.
+ TEST FAILED
+
+Iteration 83. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 62
+Actual # of cards in hands: 64.
+SEED: 25.
+ TEST FAILED
+
+Iteration 84. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 378
+Actual # of cards in hands: 380.
+SEED: 792.
+ TEST FAILED
+
+Iteration 85. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 300
+Actual # of cards in hands: 302.
+SEED: 705.
+ TEST FAILED
+
+Iteration 86. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 419
+Actual # of cards in hands: 421.
+SEED: 810.
+ TEST FAILED
+
+Iteration 87. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 58
+Actual # of cards in hands: 60.
+SEED: 914.
+ TEST FAILED
+
+Iteration 88. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 422
+Actual # of cards in hands: 424.
+SEED: 543.
+ TEST FAILED
+
+Iteration 89. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 390
+Actual # of cards in hands: 392.
+SEED: 845.
+ TEST FAILED
+
+Iteration 90. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 93
+Actual # of cards in hands: 95.
+SEED: 841.
+ TEST FAILED
+
+Iteration 91. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 197
+Actual # of cards in hands: 199.
+SEED: 307.
+ TEST FAILED
+
+Iteration 92. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 372
+Actual # of cards in hands: 374.
+SEED: 461.
+ TEST FAILED
+
+Iteration 93. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 411
+Actual # of cards in hands: 413.
+SEED: 696.
+ TEST FAILED
+
+Iteration 94. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 76
+Actual # of cards in hands: 78.
+SEED: 661.
+ TEST FAILED
+
+Iteration 95. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 353
+Actual # of cards in hands: 355.
+SEED: 970.
+ TEST FAILED
+
+Iteration 96. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 15
+Actual # of cards in hands: 17.
+SEED: 764.
+ TEST FAILED
+
+Iteration 97. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 244
+Actual # of cards in hands: 246.
+SEED: 376.
+ TEST FAILED
+
+Iteration 98. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 460
+Actual # of cards in hands: 462.
+SEED: 493.
+ TEST FAILED
+
+Iteration 99. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 379
+Actual # of cards in hands: 381.
+SEED: 916.
+ TEST FAILED
+
+Iteration 100. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 229
+Actual # of cards in hands: 231.
+SEED: 762.
+ TEST FAILED
+
+Iteration 101. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 11
+Actual # of cards in hands: 13.
+SEED: 307.
+ TEST FAILED
+
+Iteration 102. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 432
+Actual # of cards in hands: 434.
+SEED: 670.
+ TEST FAILED
+
+Iteration 103. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 20
+Actual # of cards in hands: 22.
+SEED: 90.
+ TEST FAILED
+
+Iteration 104. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 9
+Actual # of cards in hands: 11.
+SEED: 474.
+ TEST FAILED
+
+Iteration 105. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 462
+Actual # of cards in hands: 464.
+SEED: 892.
+ TEST FAILED
+
+Iteration 106. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 275
+Actual # of cards in hands: 277.
+SEED: 710.
+ TEST FAILED
+
+Iteration 107. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 267
+Actual # of cards in hands: 269.
+SEED: 969.
+ TEST FAILED
+
+Iteration 108. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 375
+Actual # of cards in hands: 377.
+SEED: 762.
+ TEST FAILED
+
+Iteration 109. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 90
+Actual # of cards in hands: 92.
+SEED: 775.
+ TEST FAILED
+
+Iteration 110. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 231
+Actual # of cards in hands: 233.
+SEED: 281.
+ TEST FAILED
+
+Iteration 111. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 195
+Actual # of cards in hands: 197.
+SEED: 348.
+ TEST FAILED
+
+Iteration 112. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 82
+Actual # of cards in hands: 84.
+SEED: 176.
+ TEST FAILED
+
+Iteration 113. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 897.
+ TEST FAILED
+
+Iteration 114. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 81
+Actual # of cards in hands: 83.
+SEED: 640.
+ TEST FAILED
+
+Iteration 115. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 386
+Actual # of cards in hands: 388.
+SEED: 328.
+ TEST FAILED
+
+Iteration 116. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 55
+Actual # of cards in hands: 57.
+SEED: 63.
+ TEST FAILED
+
+Iteration 117. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 470
+Actual # of cards in hands: 472.
+SEED: 311.
+ TEST FAILED
+
+Iteration 118. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 347
+Actual # of cards in hands: 349.
+SEED: 969.
+ TEST FAILED
+
+Iteration 119. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 20
+Actual # of cards in hands: 22.
+SEED: 370.
+ TEST FAILED
+
+Iteration 120. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 261
+Actual # of cards in hands: 263.
+SEED: 206.
+ TEST FAILED
+
+Iteration 121. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 140
+Actual # of cards in hands: 142.
+SEED: 743.
+ TEST FAILED
+
+Iteration 122. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 337
+Actual # of cards in hands: 339.
+SEED: 769.
+ TEST FAILED
+
+Iteration 123. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 352
+Actual # of cards in hands: 354.
+SEED: 800.
+ TEST FAILED
+
+Iteration 124. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 54
+Actual # of cards in hands: 56.
+SEED: 740.
+ TEST FAILED
+
+Iteration 125. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 252
+Actual # of cards in hands: 254.
+SEED: 772.
+ TEST FAILED
+
+Iteration 126. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 134
+Actual # of cards in hands: 136.
+SEED: 162.
+ TEST FAILED
+
+Iteration 127. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 120
+Actual # of cards in hands: 122.
+SEED: 833.
+ TEST FAILED
+
+Iteration 128. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 249
+Actual # of cards in hands: 251.
+SEED: 88.
+ TEST FAILED
+
+Iteration 129. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 193
+Actual # of cards in hands: 195.
+SEED: 606.
+ TEST FAILED
+
+Iteration 130. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 270
+Actual # of cards in hands: 272.
+SEED: 933.
+ TEST FAILED
+
+Iteration 131. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 315
+Actual # of cards in hands: 317.
+SEED: 895.
+ TEST FAILED
+
+Iteration 132. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 232
+Actual # of cards in hands: 234.
+SEED: 441.
+ TEST FAILED
+
+Iteration 133. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 500
+Actual # of cards in hands: 502.
+SEED: 542.
+ TEST FAILED
+
+Iteration 134. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 408
+Actual # of cards in hands: 410.
+SEED: 459.
+ TEST FAILED
+
+Iteration 135. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 254
+Actual # of cards in hands: 256.
+SEED: 889.
+ TEST FAILED
+
+Iteration 136. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 269
+Actual # of cards in hands: 271.
+SEED: 56.
+ TEST FAILED
+
+Iteration 137. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 446
+Actual # of cards in hands: 448.
+SEED: 46.
+ TEST FAILED
+
+Iteration 138. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 72
+Actual # of cards in hands: 74.
+SEED: 680.
+ TEST FAILED
+
+Iteration 139. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 339
+Actual # of cards in hands: 341.
+SEED: 535.
+ TEST FAILED
+
+Iteration 140. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 277
+Actual # of cards in hands: 279.
+SEED: 229.
+ TEST FAILED
+
+Iteration 141. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 184
+Actual # of cards in hands: 186.
+SEED: 597.
+ TEST FAILED
+
+Iteration 142. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 162
+Actual # of cards in hands: 164.
+SEED: 358.
+ TEST FAILED
+
+Iteration 143. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 120
+Actual # of cards in hands: 122.
+SEED: 97.
+ TEST FAILED
+
+Iteration 144. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 476
+Actual # of cards in hands: 478.
+SEED: 225.
+ TEST FAILED
+
+Iteration 145. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 111
+Actual # of cards in hands: 113.
+SEED: 244.
+ TEST FAILED
+
+Iteration 146. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 188
+Actual # of cards in hands: 190.
+SEED: 650.
+ TEST FAILED
+
+Iteration 147. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 157
+Actual # of cards in hands: 159.
+SEED: 928.
+ TEST FAILED
+
+Iteration 148. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 331
+Actual # of cards in hands: 333.
+SEED: 976.
+ TEST FAILED
+
+Iteration 149. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 86
+Actual # of cards in hands: 88.
+SEED: 792.
+ TEST FAILED
+
+Iteration 150. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 201
+Actual # of cards in hands: 203.
+SEED: 641.
+ TEST FAILED
+
+Iteration 151. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 200
+Actual # of cards in hands: 202.
+SEED: 801.
+ TEST FAILED
+
+Iteration 152. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 226
+Actual # of cards in hands: 228.
+SEED: 335.
+ TEST FAILED
+
+Iteration 153. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 15
+Actual # of cards in hands: 17.
+SEED: 754.
+ TEST FAILED
+
+Iteration 154. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 376
+Actual # of cards in hands: 378.
+SEED: 162.
+ TEST FAILED
+
+Iteration 155. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 9
+Actual # of cards in hands: 11.
+SEED: 276.
+ TEST FAILED
+
+Iteration 156. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 463
+Actual # of cards in hands: 465.
+SEED: 528.
+ TEST FAILED
+
+Iteration 157. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 494
+Actual # of cards in hands: 496.
+SEED: 651.
+ TEST FAILED
+
+Iteration 158. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 458
+Actual # of cards in hands: 460.
+SEED: 604.
+ TEST FAILED
+
+Iteration 159. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 348
+Actual # of cards in hands: 350.
+SEED: 398.
+ TEST FAILED
+
+Iteration 160. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 308
+Actual # of cards in hands: 310.
+SEED: 953.
+ TEST FAILED
+
+Iteration 161. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 439
+Actual # of cards in hands: 441.
+SEED: 26.
+ TEST FAILED
+
+Iteration 162. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 182
+Actual # of cards in hands: 184.
+SEED: 550.
+ TEST FAILED
+
+Iteration 163. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 32
+Actual # of cards in hands: 34.
+SEED: 366.
+ TEST FAILED
+
+Iteration 164. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 420
+Actual # of cards in hands: 422.
+SEED: 102.
+ TEST FAILED
+
+Iteration 165. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 500
+Actual # of cards in hands: 502.
+SEED: 87.
+ TEST FAILED
+
+Iteration 166. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 31
+Actual # of cards in hands: 33.
+SEED: 590.
+ TEST FAILED
+
+Iteration 167. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 335
+Actual # of cards in hands: 337.
+SEED: 858.
+ TEST FAILED
+
+Iteration 168. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 202
+Actual # of cards in hands: 204.
+SEED: 32.
+ TEST FAILED
+
+Iteration 169. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 442
+Actual # of cards in hands: 444.
+SEED: 425.
+ TEST FAILED
+
+Iteration 170. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 33
+Actual # of cards in hands: 35.
+SEED: 798.
+ TEST FAILED
+
+Iteration 171. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 405
+Actual # of cards in hands: 407.
+SEED: 149.
+ TEST FAILED
+
+Iteration 172. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 137
+Actual # of cards in hands: 139.
+SEED: 403.
+ TEST FAILED
+
+Iteration 173. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 220
+Actual # of cards in hands: 222.
+SEED: 182.
+ TEST FAILED
+
+Iteration 174. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 320
+Actual # of cards in hands: 322.
+SEED: 614.
+ TEST FAILED
+
+Iteration 175. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 9
+Actual # of cards in hands: 11.
+SEED: 989.
+ TEST FAILED
+
+Iteration 176. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 118
+Actual # of cards in hands: 120.
+SEED: 184.
+ TEST FAILED
+
+Iteration 177. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 330
+Actual # of cards in hands: 332.
+SEED: 770.
+ TEST FAILED
+
+Iteration 178. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 260
+Actual # of cards in hands: 262.
+SEED: 764.
+ TEST FAILED
+
+Iteration 179. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 391
+Actual # of cards in hands: 393.
+SEED: 62.
+ TEST FAILED
+
+Iteration 180. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 32
+Actual # of cards in hands: 34.
+SEED: 924.
+ TEST FAILED
+
+Iteration 181. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 292
+Actual # of cards in hands: 294.
+SEED: 945.
+ TEST FAILED
+
+Iteration 182. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 388
+Actual # of cards in hands: 390.
+SEED: 735.
+ TEST FAILED
+
+Iteration 183. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 63
+Actual # of cards in hands: 65.
+SEED: 260.
+ TEST FAILED
+
+Iteration 184. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 342
+Actual # of cards in hands: 344.
+SEED: 321.
+ TEST FAILED
+
+Iteration 185. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 438
+Actual # of cards in hands: 440.
+SEED: 474.
+ TEST FAILED
+
+Iteration 186. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 198
+Actual # of cards in hands: 200.
+SEED: 616.
+ TEST FAILED
+
+Iteration 187. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 460
+Actual # of cards in hands: 462.
+SEED: 299.
+ TEST FAILED
+
+Iteration 188. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 50
+Actual # of cards in hands: 52.
+SEED: 964.
+ TEST FAILED
+
+Iteration 189. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 239
+Actual # of cards in hands: 241.
+SEED: 85.
+ TEST FAILED
+
+Iteration 190. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 712.
+ TEST FAILED
+
+Iteration 191. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 258
+Actual # of cards in hands: 260.
+SEED: 393.
+ TEST FAILED
+
+Iteration 192. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 131
+Actual # of cards in hands: 133.
+SEED: 625.
+ TEST FAILED
+
+Iteration 193. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 364
+Actual # of cards in hands: 366.
+SEED: 215.
+ TEST FAILED
+
+Iteration 194. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 308
+Actual # of cards in hands: 310.
+SEED: 50.
+ TEST FAILED
+
+Iteration 195. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 30
+Actual # of cards in hands: 32.
+SEED: 830.
+ TEST FAILED
+
+Iteration 196. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 204
+Actual # of cards in hands: 206.
+SEED: 999.
+ TEST FAILED
+
+Iteration 197. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 437
+Actual # of cards in hands: 439.
+SEED: 684.
+ TEST FAILED
+
+Iteration 198. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 482
+Actual # of cards in hands: 484.
+SEED: 849.
+ TEST FAILED
+
+Iteration 199. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 471
+Actual # of cards in hands: 473.
+SEED: 712.
+ TEST FAILED
+
+Iteration 200. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 235
+Actual # of cards in hands: 237.
+SEED: 259.
+ TEST FAILED
+
+Iteration 201. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 74
+Actual # of cards in hands: 76.
+SEED: 821.
+ TEST FAILED
+
+Iteration 202. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 240
+Actual # of cards in hands: 242.
+SEED: 776.
+ TEST FAILED
+
+Iteration 203. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 19
+Actual # of cards in hands: 21.
+SEED: 49.
+ TEST FAILED
+
+Iteration 204. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 369
+Actual # of cards in hands: 371.
+SEED: 592.
+ TEST FAILED
+
+Iteration 205. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 218
+Actual # of cards in hands: 220.
+SEED: 729.
+ TEST FAILED
+
+Iteration 206. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 47
+Actual # of cards in hands: 49.
+SEED: 871.
+ TEST FAILED
+
+Iteration 207. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 276
+Actual # of cards in hands: 278.
+SEED: 277.
+ TEST FAILED
+
+Iteration 208. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 376
+Actual # of cards in hands: 378.
+SEED: 871.
+ TEST FAILED
+
+Iteration 209. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 184
+Actual # of cards in hands: 186.
+SEED: 994.
+ TEST FAILED
+
+Iteration 210. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 17
+Actual # of cards in hands: 19.
+SEED: 859.
+ TEST FAILED
+
+Iteration 211. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 82
+Actual # of cards in hands: 84.
+SEED: 424.
+ TEST FAILED
+
+Iteration 212. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 313
+Actual # of cards in hands: 315.
+SEED: 762.
+ TEST FAILED
+
+Iteration 213. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 297
+Actual # of cards in hands: 299.
+SEED: 91.
+ TEST FAILED
+
+Iteration 214. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 316
+Actual # of cards in hands: 318.
+SEED: 249.
+ TEST FAILED
+
+Iteration 215. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 466
+Actual # of cards in hands: 468.
+SEED: 928.
+ TEST FAILED
+
+Iteration 216. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 82
+Actual # of cards in hands: 84.
+SEED: 477.
+ TEST FAILED
+
+Iteration 217. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 54
+Actual # of cards in hands: 56.
+SEED: 622.
+ TEST FAILED
+
+Iteration 218. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 273
+Actual # of cards in hands: 275.
+SEED: 462.
+ TEST FAILED
+
+Iteration 219. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 60
+Actual # of cards in hands: 62.
+SEED: 937.
+ TEST FAILED
+
+Iteration 220. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 178
+Actual # of cards in hands: 180.
+SEED: 985.
+ TEST FAILED
+
+Iteration 221. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 255
+Actual # of cards in hands: 257.
+SEED: 557.
+ TEST FAILED
+
+Iteration 222. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 143
+Actual # of cards in hands: 145.
+SEED: 69.
+ TEST FAILED
+
+Iteration 223. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 954.
+ TEST FAILED
+
+Iteration 224. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 364
+Actual # of cards in hands: 366.
+SEED: 913.
+ TEST FAILED
+
+Iteration 225. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 224
+Actual # of cards in hands: 226.
+SEED: 237.
+ TEST FAILED
+
+Iteration 226. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 390
+Actual # of cards in hands: 392.
+SEED: 907.
+ TEST FAILED
+
+Iteration 227. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 366
+Actual # of cards in hands: 368.
+SEED: 617.
+ TEST FAILED
+
+Iteration 228. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 492
+Actual # of cards in hands: 494.
+SEED: 212.
+ TEST FAILED
+
+Iteration 229. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 23
+Actual # of cards in hands: 25.
+SEED: 143.
+ TEST FAILED
+
+Iteration 230. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 377
+Actual # of cards in hands: 379.
+SEED: 99.
+ TEST FAILED
+
+Iteration 231. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 131
+Actual # of cards in hands: 133.
+SEED: 652.
+ TEST FAILED
+
+Iteration 232. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 422
+Actual # of cards in hands: 424.
+SEED: 871.
+ TEST FAILED
+
+Iteration 233. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 56
+Actual # of cards in hands: 58.
+SEED: 767.
+ TEST FAILED
+
+Iteration 234. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 48
+Actual # of cards in hands: 50.
+SEED: 461.
+ TEST FAILED
+
+Iteration 235. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 229.
+ TEST FAILED
+
+Iteration 236. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 455
+Actual # of cards in hands: 457.
+SEED: 811.
+ TEST FAILED
+
+Iteration 237. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 87
+Actual # of cards in hands: 89.
+SEED: 436.
+ TEST FAILED
+
+Iteration 238. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 302
+Actual # of cards in hands: 304.
+SEED: 267.
+ TEST FAILED
+
+Iteration 239. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 89
+Actual # of cards in hands: 91.
+SEED: 136.
+ TEST FAILED
+
+Iteration 240. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 156
+Actual # of cards in hands: 158.
+SEED: 43.
+ TEST FAILED
+
+Iteration 241. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 157
+Actual # of cards in hands: 159.
+SEED: 828.
+ TEST FAILED
+
+Iteration 242. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 101
+Actual # of cards in hands: 103.
+SEED: 852.
+ TEST FAILED
+
+Iteration 243. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 109
+Actual # of cards in hands: 111.
+SEED: 687.
+ TEST FAILED
+
+Iteration 244. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 334
+Actual # of cards in hands: 336.
+SEED: 201.
+ TEST FAILED
+
+Iteration 245. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 360
+Actual # of cards in hands: 362.
+SEED: 716.
+ TEST FAILED
+
+Iteration 246. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 212
+Actual # of cards in hands: 214.
+SEED: 255.
+ TEST FAILED
+
+Iteration 247. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 439
+Actual # of cards in hands: 441.
+SEED: 815.
+ TEST FAILED
+
+Iteration 248. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 188
+Actual # of cards in hands: 190.
+SEED: 371.
+ TEST FAILED
+
+Iteration 249. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 404
+Actual # of cards in hands: 406.
+SEED: 195.
+ TEST FAILED
+
+Iteration 250. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 116
+Actual # of cards in hands: 118.
+SEED: 575.
+ TEST FAILED
+
+Iteration 251. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 7
+Actual # of cards in hands: 9.
+SEED: 876.
+ TEST FAILED
+
+Iteration 252. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 487
+Actual # of cards in hands: 489.
+SEED: 475.
+ TEST FAILED
+
+Iteration 253. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 83
+Actual # of cards in hands: 85.
+SEED: 80.
+ TEST FAILED
+
+Iteration 254. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 96
+Actual # of cards in hands: 98.
+SEED: 61.
+ TEST FAILED
+
+Iteration 255. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 358
+Actual # of cards in hands: 360.
+SEED: 885.
+ TEST FAILED
+
+Iteration 256. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 358
+Actual # of cards in hands: 360.
+SEED: 65.
+ TEST FAILED
+
+Iteration 257. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 123
+Actual # of cards in hands: 125.
+SEED: 107.
+ TEST FAILED
+
+Iteration 258. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 414
+Actual # of cards in hands: 416.
+SEED: 225.
+ TEST FAILED
+
+Iteration 259. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 388
+Actual # of cards in hands: 390.
+SEED: 261.
+ TEST FAILED
+
+Iteration 260. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 448
+Actual # of cards in hands: 450.
+SEED: 206.
+ TEST FAILED
+
+Iteration 261. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 320
+Actual # of cards in hands: 322.
+SEED: 588.
+ TEST FAILED
+
+Iteration 262. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 63
+Actual # of cards in hands: 65.
+SEED: 837.
+ TEST FAILED
+
+Iteration 263. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 106
+Actual # of cards in hands: 108.
+SEED: 470.
+ TEST FAILED
+
+Iteration 264. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 60
+Actual # of cards in hands: 62.
+SEED: 909.
+ TEST FAILED
+
+Iteration 265. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 499
+Actual # of cards in hands: 501.
+SEED: 391.
+ TEST FAILED
+
+Iteration 266. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 171
+Actual # of cards in hands: 173.
+SEED: 666.
+ TEST FAILED
+
+Iteration 267. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 301
+Actual # of cards in hands: 303.
+SEED: 595.
+ TEST FAILED
+
+Iteration 268. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 286
+Actual # of cards in hands: 288.
+SEED: 750.
+ TEST FAILED
+
+Iteration 269. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 390
+Actual # of cards in hands: 392.
+SEED: 870.
+ TEST FAILED
+
+Iteration 270. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 444
+Actual # of cards in hands: 446.
+SEED: 891.
+ TEST FAILED
+
+Iteration 271. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 382
+Actual # of cards in hands: 384.
+SEED: 224.
+ TEST FAILED
+
+Iteration 272. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 66
+Actual # of cards in hands: 68.
+SEED: 285.
+ TEST FAILED
+
+Iteration 273. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 27
+Actual # of cards in hands: 29.
+SEED: 215.
+ TEST FAILED
+
+Iteration 274. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 358
+Actual # of cards in hands: 360.
+SEED: 596.
+ TEST FAILED
+
+Iteration 275. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 326
+Actual # of cards in hands: 328.
+SEED: 855.
+ TEST FAILED
+
+Iteration 276. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 54
+Actual # of cards in hands: 56.
+SEED: 862.
+ TEST FAILED
+
+Iteration 277. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 205
+Actual # of cards in hands: 207.
+SEED: 279.
+ TEST FAILED
+
+Iteration 278. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 28
+Actual # of cards in hands: 30.
+SEED: 365.
+ TEST FAILED
+
+Iteration 279. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 79.
+ TEST FAILED
+
+Iteration 280. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 305
+Actual # of cards in hands: 307.
+SEED: 212.
+ TEST FAILED
+
+Iteration 281. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 173
+Actual # of cards in hands: 175.
+SEED: 619.
+ TEST FAILED
+
+Iteration 282. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 306
+Actual # of cards in hands: 308.
+SEED: 542.
+ TEST FAILED
+
+Iteration 283. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 261
+Actual # of cards in hands: 263.
+SEED: 370.
+ TEST FAILED
+
+Iteration 284. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 443
+Actual # of cards in hands: 445.
+SEED: 823.
+ TEST FAILED
+
+Iteration 285. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 492
+Actual # of cards in hands: 494.
+SEED: 922.
+ TEST FAILED
+
+Iteration 286. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 466
+Actual # of cards in hands: 468.
+SEED: 253.
+ TEST FAILED
+
+Iteration 287. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 321
+Actual # of cards in hands: 323.
+SEED: 814.
+ TEST FAILED
+
+Iteration 288. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 42
+Actual # of cards in hands: 44.
+SEED: 939.
+ TEST FAILED
+
+Iteration 289. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 468
+Actual # of cards in hands: 470.
+SEED: 417.
+ TEST FAILED
+
+Iteration 290. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 287
+Actual # of cards in hands: 289.
+SEED: 697.
+ TEST FAILED
+
+Iteration 291. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 14
+Actual # of cards in hands: 16.
+SEED: 699.
+ TEST FAILED
+
+Iteration 292. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 200
+Actual # of cards in hands: 202.
+SEED: 322.
+ TEST FAILED
+
+Iteration 293. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 119
+Actual # of cards in hands: 121.
+SEED: 276.
+ TEST FAILED
+
+Iteration 294. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 467
+Actual # of cards in hands: 469.
+SEED: 468.
+ TEST FAILED
+
+Iteration 295. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 281
+Actual # of cards in hands: 283.
+SEED: 715.
+ TEST FAILED
+
+Iteration 296. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 353
+Actual # of cards in hands: 355.
+SEED: 453.
+ TEST FAILED
+
+Iteration 297. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 302
+Actual # of cards in hands: 304.
+SEED: 891.
+ TEST FAILED
+
+Iteration 298. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 125
+Actual # of cards in hands: 127.
+SEED: 194.
+ TEST FAILED
+
+Iteration 299. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 139
+Actual # of cards in hands: 141.
+SEED: 324.
+ TEST FAILED
+
+Iteration 300. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 358
+Actual # of cards in hands: 360.
+SEED: 298.
+ TEST FAILED
+
+Iteration 301. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 29
+Actual # of cards in hands: 31.
+SEED: 342.
+ TEST FAILED
+
+Iteration 302. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 25
+Actual # of cards in hands: 27.
+SEED: 25.
+ TEST FAILED
+
+Iteration 303. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 232
+Actual # of cards in hands: 234.
+SEED: 915.
+ TEST FAILED
+
+Iteration 304. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 271
+Actual # of cards in hands: 273.
+SEED: 329.
+ TEST FAILED
+
+Iteration 305. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 159
+Actual # of cards in hands: 161.
+SEED: 687.
+ TEST FAILED
+
+Iteration 306. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 252
+Actual # of cards in hands: 254.
+SEED: 711.
+ TEST FAILED
+
+Iteration 307. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 12
+Actual # of cards in hands: 14.
+SEED: 934.
+ TEST FAILED
+
+Iteration 308. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 475
+Actual # of cards in hands: 477.
+SEED: 533.
+ TEST FAILED
+
+Iteration 309. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 294
+Actual # of cards in hands: 296.
+SEED: 215.
+ TEST FAILED
+
+Iteration 310. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 259
+Actual # of cards in hands: 261.
+SEED: 909.
+ TEST FAILED
+
+Iteration 311. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 9
+Actual # of cards in hands: 11.
+SEED: 963.
+ TEST FAILED
+
+Iteration 312. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 312
+Actual # of cards in hands: 314.
+SEED: 917.
+ TEST FAILED
+
+Iteration 313. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 315
+Actual # of cards in hands: 317.
+SEED: 702.
+ TEST FAILED
+
+Iteration 314. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 368
+Actual # of cards in hands: 370.
+SEED: 682.
+ TEST FAILED
+
+Iteration 315. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 323
+Actual # of cards in hands: 325.
+SEED: 351.
+ TEST FAILED
+
+Iteration 316. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 389
+Actual # of cards in hands: 391.
+SEED: 649.
+ TEST FAILED
+
+Iteration 317. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 14
+Actual # of cards in hands: 16.
+SEED: 340.
+ TEST FAILED
+
+Iteration 318. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 366
+Actual # of cards in hands: 368.
+SEED: 582.
+ TEST FAILED
+
+Iteration 319. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 123
+Actual # of cards in hands: 125.
+SEED: 665.
+ TEST FAILED
+
+Iteration 320. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 230
+Actual # of cards in hands: 232.
+SEED: 475.
+ TEST FAILED
+
+Iteration 321. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 398
+Actual # of cards in hands: 400.
+SEED: 273.
+ TEST FAILED
+
+Iteration 322. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 327
+Actual # of cards in hands: 329.
+SEED: 518.
+ TEST FAILED
+
+Iteration 323. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 312
+Actual # of cards in hands: 314.
+SEED: 909.
+ TEST FAILED
+
+Iteration 324. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 16
+Actual # of cards in hands: 18.
+SEED: 952.
+ TEST FAILED
+
+Iteration 325. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 402
+Actual # of cards in hands: 404.
+SEED: 837.
+ TEST FAILED
+
+Iteration 326. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 249
+Actual # of cards in hands: 251.
+SEED: 150.
+ TEST FAILED
+
+Iteration 327. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 231
+Actual # of cards in hands: 233.
+SEED: 756.
+ TEST FAILED
+
+Iteration 328. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 181
+Actual # of cards in hands: 183.
+SEED: 998.
+ TEST FAILED
+
+Iteration 329. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 39
+Actual # of cards in hands: 41.
+SEED: 533.
+ TEST FAILED
+
+Iteration 330. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 239
+Actual # of cards in hands: 241.
+SEED: 386.
+ TEST FAILED
+
+Iteration 331. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 344
+Actual # of cards in hands: 346.
+SEED: 799.
+ TEST FAILED
+
+Iteration 332. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 41
+Actual # of cards in hands: 43.
+SEED: 994.
+ TEST FAILED
+
+Iteration 333. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 160
+Actual # of cards in hands: 162.
+SEED: 573.
+ TEST FAILED
+
+Iteration 334. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 810.
+ TEST FAILED
+
+Iteration 335. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 449
+Actual # of cards in hands: 451.
+SEED: 564.
+ TEST FAILED
+
+Iteration 336. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 65
+Actual # of cards in hands: 67.
+SEED: 690.
+ TEST FAILED
+
+Iteration 337. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 305
+Actual # of cards in hands: 307.
+SEED: 720.
+ TEST FAILED
+
+Iteration 338. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 91
+Actual # of cards in hands: 93.
+SEED: 724.
+ TEST FAILED
+
+Iteration 339. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 161
+Actual # of cards in hands: 163.
+SEED: 864.
+ TEST FAILED
+
+Iteration 340. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 70
+Actual # of cards in hands: 72.
+SEED: 976.
+ TEST FAILED
+
+Iteration 341. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 238
+Actual # of cards in hands: 240.
+SEED: 205.
+ TEST FAILED
+
+Iteration 342. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 153
+Actual # of cards in hands: 155.
+SEED: 155.
+ TEST FAILED
+
+Iteration 343. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 233
+Actual # of cards in hands: 235.
+SEED: 710.
+ TEST FAILED
+
+Iteration 344. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 218
+Actual # of cards in hands: 220.
+SEED: 350.
+ TEST FAILED
+
+Iteration 345. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 294
+Actual # of cards in hands: 296.
+SEED: 152.
+ TEST FAILED
+
+Iteration 346. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 191
+Actual # of cards in hands: 193.
+SEED: 440.
+ TEST FAILED
+
+Iteration 347. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 442
+Actual # of cards in hands: 444.
+SEED: 302.
+ TEST FAILED
+
+Iteration 348. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 479
+Actual # of cards in hands: 481.
+SEED: 745.
+ TEST FAILED
+
+Iteration 349. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 233
+Actual # of cards in hands: 235.
+SEED: 122.
+ TEST FAILED
+
+Iteration 350. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 95
+Actual # of cards in hands: 97.
+SEED: 960.
+ TEST FAILED
+
+Iteration 351. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 70
+Actual # of cards in hands: 72.
+SEED: 948.
+ TEST FAILED
+
+Iteration 352. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 13
+Actual # of cards in hands: 15.
+SEED: 452.
+ TEST FAILED
+
+Iteration 353. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 145
+Actual # of cards in hands: 147.
+SEED: 59.
+ TEST FAILED
+
+Iteration 354. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 412
+Actual # of cards in hands: 414.
+SEED: 595.
+ TEST FAILED
+
+Iteration 355. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 374
+Actual # of cards in hands: 376.
+SEED: 839.
+ TEST FAILED
+
+Iteration 356. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 76
+Actual # of cards in hands: 78.
+SEED: 753.
+ TEST FAILED
+
+Iteration 357. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 163
+Actual # of cards in hands: 165.
+SEED: 132.
+ TEST FAILED
+
+Iteration 358. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 326
+Actual # of cards in hands: 328.
+SEED: 233.
+ TEST FAILED
+
+Iteration 359. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 13
+Actual # of cards in hands: 15.
+SEED: 581.
+ TEST FAILED
+
+Iteration 360. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 453
+Actual # of cards in hands: 455.
+SEED: 462.
+ TEST FAILED
+
+Iteration 361. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 397
+Actual # of cards in hands: 399.
+SEED: 363.
+ TEST FAILED
+
+Iteration 362. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 405
+Actual # of cards in hands: 407.
+SEED: 50.
+ TEST FAILED
+
+Iteration 363. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 285
+Actual # of cards in hands: 287.
+SEED: 715.
+ TEST FAILED
+
+Iteration 364. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 291
+Actual # of cards in hands: 293.
+SEED: 281.
+ TEST FAILED
+
+Iteration 365. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 67
+Actual # of cards in hands: 69.
+SEED: 753.
+ TEST FAILED
+
+Iteration 366. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 726.
+ TEST FAILED
+
+Iteration 367. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 477
+Actual # of cards in hands: 479.
+SEED: 621.
+ TEST FAILED
+
+Iteration 368. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 488
+Actual # of cards in hands: 490.
+SEED: 243.
+ TEST FAILED
+
+Iteration 369. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 134
+Actual # of cards in hands: 136.
+SEED: 221.
+ TEST FAILED
+
+Iteration 370. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 90
+Actual # of cards in hands: 92.
+SEED: 304.
+ TEST FAILED
+
+Iteration 371. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 384
+Actual # of cards in hands: 386.
+SEED: 770.
+ TEST FAILED
+
+Iteration 372. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 163
+Actual # of cards in hands: 165.
+SEED: 276.
+ TEST FAILED
+
+Iteration 373. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 129
+Actual # of cards in hands: 131.
+SEED: 201.
+ TEST FAILED
+
+Iteration 374. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 420
+Actual # of cards in hands: 422.
+SEED: 278.
+ TEST FAILED
+
+Iteration 375. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 761.
+ TEST FAILED
+
+Iteration 376. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 433
+Actual # of cards in hands: 435.
+SEED: 234.
+ TEST FAILED
+
+Iteration 377. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 135
+Actual # of cards in hands: 137.
+SEED: 509.
+ TEST FAILED
+
+Iteration 378. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 296
+Actual # of cards in hands: 298.
+SEED: 116.
+ TEST FAILED
+
+Iteration 379. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 371
+Actual # of cards in hands: 373.
+SEED: 914.
+ TEST FAILED
+
+Iteration 380. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 297
+Actual # of cards in hands: 299.
+SEED: 419.
+ TEST FAILED
+
+Iteration 381. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 276
+Actual # of cards in hands: 278.
+SEED: 270.
+ TEST FAILED
+
+Iteration 382. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 433
+Actual # of cards in hands: 435.
+SEED: 860.
+ TEST FAILED
+
+Iteration 383. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 396
+Actual # of cards in hands: 398.
+SEED: 726.
+ TEST FAILED
+
+Iteration 384. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 116
+Actual # of cards in hands: 118.
+SEED: 150.
+ TEST FAILED
+
+Iteration 385. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 98
+Actual # of cards in hands: 100.
+SEED: 215.
+ TEST FAILED
+
+Iteration 386. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 29
+Actual # of cards in hands: 31.
+SEED: 190.
+ TEST FAILED
+
+Iteration 387. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 188
+Actual # of cards in hands: 190.
+SEED: 553.
+ TEST FAILED
+
+Iteration 388. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 171
+Actual # of cards in hands: 173.
+SEED: 783.
+ TEST FAILED
+
+Iteration 389. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 88
+Actual # of cards in hands: 90.
+SEED: 450.
+ TEST FAILED
+
+Iteration 390. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 204
+Actual # of cards in hands: 206.
+SEED: 658.
+ TEST FAILED
+
+Iteration 391. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 429
+Actual # of cards in hands: 431.
+SEED: 219.
+ TEST FAILED
+
+Iteration 392. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 331
+Actual # of cards in hands: 333.
+SEED: 817.
+ TEST FAILED
+
+Iteration 393. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 147
+Actual # of cards in hands: 149.
+SEED: 41.
+ TEST FAILED
+
+Iteration 394. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 377
+Actual # of cards in hands: 379.
+SEED: 763.
+ TEST FAILED
+
+Iteration 395. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 309
+Actual # of cards in hands: 311.
+SEED: 199.
+ TEST FAILED
+
+Iteration 396. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 355
+Actual # of cards in hands: 357.
+SEED: 801.
+ TEST FAILED
+
+Iteration 397. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 120
+Actual # of cards in hands: 122.
+SEED: 740.
+ TEST FAILED
+
+Iteration 398. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 412
+Actual # of cards in hands: 414.
+SEED: 701.
+ TEST FAILED
+
+Iteration 399. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 221
+Actual # of cards in hands: 223.
+SEED: 262.
+ TEST FAILED
+
+Iteration 400. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 287
+Actual # of cards in hands: 289.
+SEED: 420.
+ TEST FAILED
+
+Iteration 401. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 397
+Actual # of cards in hands: 399.
+SEED: 421.
+ TEST FAILED
+
+Iteration 402. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 372
+Actual # of cards in hands: 374.
+SEED: 804.
+ TEST FAILED
+
+Iteration 403. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 280
+Actual # of cards in hands: 282.
+SEED: 303.
+ TEST FAILED
+
+Iteration 404. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 672.
+ TEST FAILED
+
+Iteration 405. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 176
+Actual # of cards in hands: 178.
+SEED: 172.
+ TEST FAILED
+
+Iteration 406. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 11
+Actual # of cards in hands: 13.
+SEED: 730.
+ TEST FAILED
+
+Iteration 407. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 447
+Actual # of cards in hands: 449.
+SEED: 363.
+ TEST FAILED
+
+Iteration 408. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 460
+Actual # of cards in hands: 462.
+SEED: 496.
+ TEST FAILED
+
+Iteration 409. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 404
+Actual # of cards in hands: 406.
+SEED: 291.
+ TEST FAILED
+
+Iteration 410. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 345
+Actual # of cards in hands: 347.
+SEED: 962.
+ TEST FAILED
+
+Iteration 411. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 243
+Actual # of cards in hands: 245.
+SEED: 562.
+ TEST FAILED
+
+Iteration 412. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 493
+Actual # of cards in hands: 495.
+SEED: 748.
+ TEST FAILED
+
+Iteration 413. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 110
+Actual # of cards in hands: 112.
+SEED: 711.
+ TEST FAILED
+
+Iteration 414. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 9
+Actual # of cards in hands: 11.
+SEED: 781.
+ TEST FAILED
+
+Iteration 415. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 438
+Actual # of cards in hands: 440.
+SEED: 426.
+ TEST FAILED
+
+Iteration 416. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 31
+Actual # of cards in hands: 33.
+SEED: 918.
+ TEST FAILED
+
+Iteration 417. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 327
+Actual # of cards in hands: 329.
+SEED: 895.
+ TEST FAILED
+
+Iteration 418. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 367
+Actual # of cards in hands: 369.
+SEED: 904.
+ TEST FAILED
+
+Iteration 419. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 315.
+ TEST FAILED
+
+Iteration 420. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 63
+Actual # of cards in hands: 65.
+SEED: 111.
+ TEST FAILED
+
+Iteration 421. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 424
+Actual # of cards in hands: 426.
+SEED: 628.
+ TEST FAILED
+
+Iteration 422. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 44
+Actual # of cards in hands: 46.
+SEED: 532.
+ TEST FAILED
+
+Iteration 423. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 417
+Actual # of cards in hands: 419.
+SEED: 183.
+ TEST FAILED
+
+Iteration 424. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 382
+Actual # of cards in hands: 384.
+SEED: 979.
+ TEST FAILED
+
+Iteration 425. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 182
+Actual # of cards in hands: 184.
+SEED: 337.
+ TEST FAILED
+
+Iteration 426. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 389
+Actual # of cards in hands: 391.
+SEED: 862.
+ TEST FAILED
+
+Iteration 427. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 143
+Actual # of cards in hands: 145.
+SEED: 497.
+ TEST FAILED
+
+Iteration 428. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 160
+Actual # of cards in hands: 162.
+SEED: 235.
+ TEST FAILED
+
+Iteration 429. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 128
+Actual # of cards in hands: 130.
+SEED: 993.
+ TEST FAILED
+
+Iteration 430. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 237
+Actual # of cards in hands: 239.
+SEED: 79.
+ TEST FAILED
+
+Iteration 431. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 310
+Actual # of cards in hands: 312.
+SEED: 617.
+ TEST FAILED
+
+Iteration 432. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 276
+Actual # of cards in hands: 278.
+SEED: 597.
+ TEST FAILED
+
+Iteration 433. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 235
+Actual # of cards in hands: 237.
+SEED: 80.
+ TEST FAILED
+
+Iteration 434. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 8
+Actual # of cards in hands: 10.
+SEED: 862.
+ TEST FAILED
+
+Iteration 435. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 79
+Actual # of cards in hands: 81.
+SEED: 313.
+ TEST FAILED
+
+Iteration 436. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 340
+Actual # of cards in hands: 342.
+SEED: 460.
+ TEST FAILED
+
+Iteration 437. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 210
+Actual # of cards in hands: 212.
+SEED: 267.
+ TEST FAILED
+
+Iteration 438. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 245
+Actual # of cards in hands: 247.
+SEED: 253.
+ TEST FAILED
+
+Iteration 439. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 313
+Actual # of cards in hands: 315.
+SEED: 506.
+ TEST FAILED
+
+Iteration 440. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 465
+Actual # of cards in hands: 467.
+SEED: 13.
+ TEST FAILED
+
+Iteration 441. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 13
+Actual # of cards in hands: 15.
+SEED: 254.
+ TEST FAILED
+
+Iteration 442. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 45
+Actual # of cards in hands: 47.
+SEED: 224.
+ TEST FAILED
+
+Iteration 443. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 263
+Actual # of cards in hands: 265.
+SEED: 323.
+ TEST FAILED
+
+Iteration 444. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 453
+Actual # of cards in hands: 455.
+SEED: 845.
+ TEST FAILED
+
+Iteration 445. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 178
+Actual # of cards in hands: 180.
+SEED: 820.
+ TEST FAILED
+
+Iteration 446. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 24
+Actual # of cards in hands: 26.
+SEED: 413.
+ TEST FAILED
+
+Iteration 447. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 13
+Actual # of cards in hands: 15.
+SEED: 564.
+ TEST FAILED
+
+Iteration 448. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 64
+Actual # of cards in hands: 66.
+SEED: 733.
+ TEST FAILED
+
+Iteration 449. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 198
+Actual # of cards in hands: 200.
+SEED: 601.
+ TEST FAILED
+
+Iteration 450. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 20
+Actual # of cards in hands: 22.
+SEED: 905.
+ TEST FAILED
+
+Iteration 451. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 138
+Actual # of cards in hands: 140.
+SEED: 730.
+ TEST FAILED
+
+Iteration 452. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 104
+Actual # of cards in hands: 106.
+SEED: 271.
+ TEST FAILED
+
+Iteration 453. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 424
+Actual # of cards in hands: 426.
+SEED: 295.
+ TEST FAILED
+
+Iteration 454. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 366
+Actual # of cards in hands: 368.
+SEED: 942.
+ TEST FAILED
+
+Iteration 455. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 12
+Actual # of cards in hands: 14.
+SEED: 730.
+ TEST FAILED
+
+Iteration 456. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 478
+Actual # of cards in hands: 480.
+SEED: 898.
+ TEST FAILED
+
+Iteration 457. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 492
+Actual # of cards in hands: 494.
+SEED: 416.
+ TEST FAILED
+
+Iteration 458. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 220
+Actual # of cards in hands: 222.
+SEED: 709.
+ TEST FAILED
+
+Iteration 459. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 493
+Actual # of cards in hands: 495.
+SEED: 215.
+ TEST FAILED
+
+Iteration 460. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 307
+Actual # of cards in hands: 309.
+SEED: 256.
+ TEST FAILED
+
+Iteration 461. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 87
+Actual # of cards in hands: 89.
+SEED: 184.
+ TEST FAILED
+
+Iteration 462. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 83
+Actual # of cards in hands: 85.
+SEED: 392.
+ TEST FAILED
+
+Iteration 463. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 384
+Actual # of cards in hands: 386.
+SEED: 602.
+ TEST FAILED
+
+Iteration 464. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 114
+Actual # of cards in hands: 116.
+SEED: 383.
+ TEST FAILED
+
+Iteration 465. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 70
+Actual # of cards in hands: 72.
+SEED: 114.
+ TEST FAILED
+
+Iteration 466. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 250
+Actual # of cards in hands: 252.
+SEED: 400.
+ TEST FAILED
+
+Iteration 467. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 253
+Actual # of cards in hands: 255.
+SEED: 807.
+ TEST FAILED
+
+Iteration 468. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 218
+Actual # of cards in hands: 220.
+SEED: 748.
+ TEST FAILED
+
+Iteration 469. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 5
+Actual # of cards in hands: 7.
+SEED: 738.
+ TEST FAILED
+
+Iteration 470. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 373
+Actual # of cards in hands: 375.
+SEED: 251.
+ TEST FAILED
+
+Iteration 471. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 383
+Actual # of cards in hands: 385.
+SEED: 205.
+ TEST FAILED
+
+Iteration 472. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 161
+Actual # of cards in hands: 163.
+SEED: 33.
+ TEST FAILED
+
+Iteration 473. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 381
+Actual # of cards in hands: 383.
+SEED: 832.
+ TEST FAILED
+
+Iteration 474. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 15
+Actual # of cards in hands: 17.
+SEED: 555.
+ TEST FAILED
+
+Iteration 475. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 133
+Actual # of cards in hands: 135.
+SEED: 905.
+ TEST FAILED
+
+Iteration 476. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 385
+Actual # of cards in hands: 387.
+SEED: 538.
+ TEST FAILED
+
+Iteration 477. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 139
+Actual # of cards in hands: 141.
+SEED: 864.
+ TEST FAILED
+
+Iteration 478. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 250
+Actual # of cards in hands: 252.
+SEED: 111.
+ TEST FAILED
+
+Iteration 479. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 187
+Actual # of cards in hands: 189.
+SEED: 931.
+ TEST FAILED
+
+Iteration 480. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 483
+Actual # of cards in hands: 485.
+SEED: 186.
+ TEST FAILED
+
+Iteration 481. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 211
+Actual # of cards in hands: 213.
+SEED: 828.
+ TEST FAILED
+
+Iteration 482. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 234
+Actual # of cards in hands: 236.
+SEED: 752.
+ TEST FAILED
+
+Iteration 483. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 441
+Actual # of cards in hands: 443.
+SEED: 625.
+ TEST FAILED
+
+Iteration 484. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 132
+Actual # of cards in hands: 134.
+SEED: 151.
+ TEST FAILED
+
+Iteration 485. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 319
+Actual # of cards in hands: 321.
+SEED: 52.
+ TEST FAILED
+
+Iteration 486. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 354
+Actual # of cards in hands: 356.
+SEED: 880.
+ TEST FAILED
+
+Iteration 487. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 324
+Actual # of cards in hands: 326.
+SEED: 971.
+ TEST FAILED
+
+Iteration 488. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 89
+Actual # of cards in hands: 91.
+SEED: 83.
+ TEST FAILED
+
+Iteration 489. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 294
+Actual # of cards in hands: 296.
+SEED: 584.
+ TEST FAILED
+
+Iteration 490. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 240
+Actual # of cards in hands: 242.
+SEED: 214.
+ TEST FAILED
+
+Iteration 491. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 418
+Actual # of cards in hands: 420.
+SEED: 20.
+ TEST FAILED
+
+Iteration 492. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 461
+Actual # of cards in hands: 463.
+SEED: 307.
+ TEST FAILED
+
+Iteration 493. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 437
+Actual # of cards in hands: 439.
+SEED: 475.
+ TEST FAILED
+
+Iteration 494. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 444
+Actual # of cards in hands: 446.
+SEED: 897.
+ TEST FAILED
+
+Iteration 495. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 79
+Actual # of cards in hands: 81.
+SEED: 590.
+ TEST FAILED
+
+Iteration 496. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 161
+Actual # of cards in hands: 163.
+SEED: 717.
+ TEST FAILED
+
+Iteration 497. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 258
+Actual # of cards in hands: 260.
+SEED: 365.
+ TEST FAILED
+
+Iteration 498. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 437
+Actual # of cards in hands: 439.
+SEED: 531.
+ TEST FAILED
+
+Iteration 499. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 167
+Actual # of cards in hands: 169.
+SEED: 494.
+ TEST FAILED
+
+Iteration 500. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 391
+Actual # of cards in hands: 393.
+SEED: 487.
+ TEST FAILED
+
+Iteration 501. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 95
+Actual # of cards in hands: 97.
+SEED: 108.
+ TEST FAILED
+
+Iteration 502. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 276
+Actual # of cards in hands: 278.
+SEED: 701.
+ TEST FAILED
+
+Iteration 503. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 140
+Actual # of cards in hands: 142.
+SEED: 991.
+ TEST FAILED
+
+Iteration 504. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 197
+Actual # of cards in hands: 199.
+SEED: 686.
+ TEST FAILED
+
+Iteration 505. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 481
+Actual # of cards in hands: 483.
+SEED: 69.
+ TEST FAILED
+
+Iteration 506. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 99
+Actual # of cards in hands: 101.
+SEED: 839.
+ TEST FAILED
+
+Iteration 507. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 439
+Actual # of cards in hands: 441.
+SEED: 173.
+ TEST FAILED
+
+Iteration 508. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 336.
+ TEST FAILED
+
+Iteration 509. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 101
+Actual # of cards in hands: 103.
+SEED: 983.
+ TEST FAILED
+
+Iteration 510. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 225
+Actual # of cards in hands: 227.
+SEED: 297.
+ TEST FAILED
+
+Iteration 511. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 251
+Actual # of cards in hands: 253.
+SEED: 600.
+ TEST FAILED
+
+Iteration 512. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 67
+Actual # of cards in hands: 69.
+SEED: 730.
+ TEST FAILED
+
+Iteration 513. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 448
+Actual # of cards in hands: 450.
+SEED: 331.
+ TEST FAILED
+
+Iteration 514. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 261
+Actual # of cards in hands: 263.
+SEED: 448.
+ TEST FAILED
+
+Iteration 515. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 98
+Actual # of cards in hands: 100.
+SEED: 732.
+ TEST FAILED
+
+Iteration 516. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 937.
+ TEST FAILED
+
+Iteration 517. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 198
+Actual # of cards in hands: 200.
+SEED: 402.
+ TEST FAILED
+
+Iteration 518. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 499
+Actual # of cards in hands: 501.
+SEED: 918.
+ TEST FAILED
+
+Iteration 519. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 234
+Actual # of cards in hands: 236.
+SEED: 589.
+ TEST FAILED
+
+Iteration 520. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 163
+Actual # of cards in hands: 165.
+SEED: 686.
+ TEST FAILED
+
+Iteration 521. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 12
+Actual # of cards in hands: 14.
+SEED: 126.
+ TEST FAILED
+
+Iteration 522. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 498
+Actual # of cards in hands: 500.
+SEED: 780.
+ TEST FAILED
+
+Iteration 523. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 475
+Actual # of cards in hands: 477.
+SEED: 109.
+ TEST FAILED
+
+Iteration 524. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 269
+Actual # of cards in hands: 271.
+SEED: 344.
+ TEST FAILED
+
+Iteration 525. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 366
+Actual # of cards in hands: 368.
+SEED: 542.
+ TEST FAILED
+
+Iteration 526. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 449
+Actual # of cards in hands: 451.
+SEED: 497.
+ TEST FAILED
+
+Iteration 527. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 143
+Actual # of cards in hands: 145.
+SEED: 929.
+ TEST FAILED
+
+Iteration 528. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 198
+Actual # of cards in hands: 200.
+SEED: 329.
+ TEST FAILED
+
+Iteration 529. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 190
+Actual # of cards in hands: 192.
+SEED: 116.
+ TEST FAILED
+
+Iteration 530. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 214
+Actual # of cards in hands: 216.
+SEED: 756.
+ TEST FAILED
+
+Iteration 531. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 22
+Actual # of cards in hands: 24.
+SEED: 284.
+ TEST FAILED
+
+Iteration 532. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 125
+Actual # of cards in hands: 127.
+SEED: 596.
+ TEST FAILED
+
+Iteration 533. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 109
+Actual # of cards in hands: 111.
+SEED: 544.
+ TEST FAILED
+
+Iteration 534. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 134
+Actual # of cards in hands: 136.
+SEED: 219.
+ TEST FAILED
+
+Iteration 535. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 492
+Actual # of cards in hands: 494.
+SEED: 90.
+ TEST FAILED
+
+Iteration 536. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 403
+Actual # of cards in hands: 405.
+SEED: 258.
+ TEST FAILED
+
+Iteration 537. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 416
+Actual # of cards in hands: 418.
+SEED: 529.
+ TEST FAILED
+
+Iteration 538. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 208
+Actual # of cards in hands: 210.
+SEED: 171.
+ TEST FAILED
+
+Iteration 539. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 194
+Actual # of cards in hands: 196.
+SEED: 364.
+ TEST FAILED
+
+Iteration 540. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 193
+Actual # of cards in hands: 195.
+SEED: 705.
+ TEST FAILED
+
+Iteration 541. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 250
+Actual # of cards in hands: 252.
+SEED: 194.
+ TEST FAILED
+
+Iteration 542. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 422
+Actual # of cards in hands: 424.
+SEED: 114.
+ TEST FAILED
+
+Iteration 543. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 96
+Actual # of cards in hands: 98.
+SEED: 17.
+ TEST FAILED
+
+Iteration 544. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 449
+Actual # of cards in hands: 451.
+SEED: 162.
+ TEST FAILED
+
+Iteration 545. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 286
+Actual # of cards in hands: 288.
+SEED: 243.
+ TEST FAILED
+
+Iteration 546. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 472
+Actual # of cards in hands: 474.
+SEED: 500.
+ TEST FAILED
+
+Iteration 547. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 206
+Actual # of cards in hands: 208.
+SEED: 268.
+ TEST FAILED
+
+Iteration 548. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 101
+Actual # of cards in hands: 103.
+SEED: 562.
+ TEST FAILED
+
+Iteration 549. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 321
+Actual # of cards in hands: 323.
+SEED: 236.
+ TEST FAILED
+
+Iteration 550. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 437
+Actual # of cards in hands: 439.
+SEED: 680.
+ TEST FAILED
+
+Iteration 551. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 208
+Actual # of cards in hands: 210.
+SEED: 738.
+ TEST FAILED
+
+Iteration 552. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 193
+Actual # of cards in hands: 195.
+SEED: 440.
+ TEST FAILED
+
+Iteration 553. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 302
+Actual # of cards in hands: 304.
+SEED: 320.
+ TEST FAILED
+
+Iteration 554. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 356
+Actual # of cards in hands: 358.
+SEED: 870.
+ TEST FAILED
+
+Iteration 555. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 302
+Actual # of cards in hands: 304.
+SEED: 853.
+ TEST FAILED
+
+Iteration 556. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 200
+Actual # of cards in hands: 202.
+SEED: 512.
+ TEST FAILED
+
+Iteration 557. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 435
+Actual # of cards in hands: 437.
+SEED: 576.
+ TEST FAILED
+
+Iteration 558. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 46
+Actual # of cards in hands: 48.
+SEED: 84.
+ TEST FAILED
+
+Iteration 559. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 196
+Actual # of cards in hands: 198.
+SEED: 111.
+ TEST FAILED
+
+Iteration 560. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 347.
+ TEST FAILED
+
+Iteration 561. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 300
+Actual # of cards in hands: 302.
+SEED: 707.
+ TEST FAILED
+
+Iteration 562. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 128
+Actual # of cards in hands: 130.
+SEED: 476.
+ TEST FAILED
+
+Iteration 563. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 162
+Actual # of cards in hands: 164.
+SEED: 597.
+ TEST FAILED
+
+Iteration 564. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 427
+Actual # of cards in hands: 429.
+SEED: 240.
+ TEST FAILED
+
+Iteration 565. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 310
+Actual # of cards in hands: 312.
+SEED: 750.
+ TEST FAILED
+
+Iteration 566. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 242
+Actual # of cards in hands: 244.
+SEED: 596.
+ TEST FAILED
+
+Iteration 567. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 155.
+ TEST FAILED
+
+Iteration 568. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 185
+Actual # of cards in hands: 187.
+SEED: 75.
+ TEST FAILED
+
+Iteration 569. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 214
+Actual # of cards in hands: 216.
+SEED: 562.
+ TEST FAILED
+
+Iteration 570. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 267
+Actual # of cards in hands: 269.
+SEED: 130.
+ TEST FAILED
+
+Iteration 571. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 271
+Actual # of cards in hands: 273.
+SEED: 598.
+ TEST FAILED
+
+Iteration 572. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 307
+Actual # of cards in hands: 309.
+SEED: 204.
+ TEST FAILED
+
+Iteration 573. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 49
+Actual # of cards in hands: 51.
+SEED: 877.
+ TEST FAILED
+
+Iteration 574. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 319
+Actual # of cards in hands: 321.
+SEED: 997.
+ TEST FAILED
+
+Iteration 575. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 475
+Actual # of cards in hands: 477.
+SEED: 702.
+ TEST FAILED
+
+Iteration 576. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 251
+Actual # of cards in hands: 253.
+SEED: 405.
+ TEST FAILED
+
+Iteration 577. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 160
+Actual # of cards in hands: 162.
+SEED: 824.
+ TEST FAILED
+
+Iteration 578. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 91
+Actual # of cards in hands: 93.
+SEED: 70.
+ TEST FAILED
+
+Iteration 579. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 373
+Actual # of cards in hands: 375.
+SEED: 975.
+ TEST FAILED
+
+Iteration 580. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 170
+Actual # of cards in hands: 172.
+SEED: 968.
+ TEST FAILED
+
+Iteration 581. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 188
+Actual # of cards in hands: 190.
+SEED: 174.
+ TEST FAILED
+
+Iteration 582. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 183
+Actual # of cards in hands: 185.
+SEED: 542.
+ TEST FAILED
+
+Iteration 583. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 181
+Actual # of cards in hands: 183.
+SEED: 77.
+ TEST FAILED
+
+Iteration 584. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 495
+Actual # of cards in hands: 497.
+SEED: 765.
+ TEST FAILED
+
+Iteration 585. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 309
+Actual # of cards in hands: 311.
+SEED: 231.
+ TEST FAILED
+
+Iteration 586. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 378
+Actual # of cards in hands: 380.
+SEED: 547.
+ TEST FAILED
+
+Iteration 587. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 52
+Actual # of cards in hands: 54.
+SEED: 201.
+ TEST FAILED
+
+Iteration 588. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 497
+Actual # of cards in hands: 499.
+SEED: 364.
+ TEST FAILED
+
+Iteration 589. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 189
+Actual # of cards in hands: 191.
+SEED: 739.
+ TEST FAILED
+
+Iteration 590. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 222
+Actual # of cards in hands: 224.
+SEED: 69.
+ TEST FAILED
+
+Iteration 591. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 192
+Actual # of cards in hands: 194.
+SEED: 406.
+ TEST FAILED
+
+Iteration 592. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 221
+Actual # of cards in hands: 223.
+SEED: 585.
+ TEST FAILED
+
+Iteration 593. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 363
+Actual # of cards in hands: 365.
+SEED: 888.
+ TEST FAILED
+
+Iteration 594. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 353
+Actual # of cards in hands: 355.
+SEED: 939.
+ TEST FAILED
+
+Iteration 595. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 365
+Actual # of cards in hands: 367.
+SEED: 500.
+ TEST FAILED
+
+Iteration 596. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 107
+Actual # of cards in hands: 109.
+SEED: 340.
+ TEST FAILED
+
+Iteration 597. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 370
+Actual # of cards in hands: 372.
+SEED: 934.
+ TEST FAILED
+
+Iteration 598. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 179
+Actual # of cards in hands: 181.
+SEED: 322.
+ TEST FAILED
+
+Iteration 599. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 211
+Actual # of cards in hands: 213.
+SEED: 226.
+ TEST FAILED
+
+Iteration 600. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 341
+Actual # of cards in hands: 343.
+SEED: 85.
+ TEST FAILED
+
+Iteration 601. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 429
+Actual # of cards in hands: 431.
+SEED: 534.
+ TEST FAILED
+
+Iteration 602. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 454
+Actual # of cards in hands: 456.
+SEED: 322.
+ TEST FAILED
+
+Iteration 603. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 470
+Actual # of cards in hands: 472.
+SEED: 988.
+ TEST FAILED
+
+Iteration 604. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 168
+Actual # of cards in hands: 170.
+SEED: 194.
+ TEST FAILED
+
+Iteration 605. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 261
+Actual # of cards in hands: 263.
+SEED: 131.
+ TEST FAILED
+
+Iteration 606. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 86
+Actual # of cards in hands: 88.
+SEED: 936.
+ TEST FAILED
+
+Iteration 607. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 368
+Actual # of cards in hands: 370.
+SEED: 623.
+ TEST FAILED
+
+Iteration 608. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 199.
+ TEST FAILED
+
+Iteration 609. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 266
+Actual # of cards in hands: 268.
+SEED: 130.
+ TEST FAILED
+
+Iteration 610. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 265
+Actual # of cards in hands: 267.
+SEED: 964.
+ TEST FAILED
+
+Iteration 611. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 470
+Actual # of cards in hands: 472.
+SEED: 921.
+ TEST FAILED
+
+Iteration 612. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 921.
+ TEST FAILED
+
+Iteration 613. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 332
+Actual # of cards in hands: 334.
+SEED: 209.
+ TEST FAILED
+
+Iteration 614. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 329
+Actual # of cards in hands: 331.
+SEED: 855.
+ TEST FAILED
+
+Iteration 615. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 48
+Actual # of cards in hands: 50.
+SEED: 629.
+ TEST FAILED
+
+Iteration 616. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 358
+Actual # of cards in hands: 360.
+SEED: 106.
+ TEST FAILED
+
+Iteration 617. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 67
+Actual # of cards in hands: 69.
+SEED: 709.
+ TEST FAILED
+
+Iteration 618. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 432
+Actual # of cards in hands: 434.
+SEED: 499.
+ TEST FAILED
+
+Iteration 619. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 239
+Actual # of cards in hands: 241.
+SEED: 139.
+ TEST FAILED
+
+Iteration 620. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 161
+Actual # of cards in hands: 163.
+SEED: 660.
+ TEST FAILED
+
+Iteration 621. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 113
+Actual # of cards in hands: 115.
+SEED: 71.
+ TEST FAILED
+
+Iteration 622. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 160
+Actual # of cards in hands: 162.
+SEED: 611.
+ TEST FAILED
+
+Iteration 623. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 428
+Actual # of cards in hands: 430.
+SEED: 999.
+ TEST FAILED
+
+Iteration 624. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 374
+Actual # of cards in hands: 376.
+SEED: 936.
+ TEST FAILED
+
+Iteration 625. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 131
+Actual # of cards in hands: 133.
+SEED: 353.
+ TEST FAILED
+
+Iteration 626. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 370
+Actual # of cards in hands: 372.
+SEED: 401.
+ TEST FAILED
+
+Iteration 627. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 427
+Actual # of cards in hands: 429.
+SEED: 355.
+ TEST FAILED
+
+Iteration 628. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 335
+Actual # of cards in hands: 337.
+SEED: 787.
+ TEST FAILED
+
+Iteration 629. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 338
+Actual # of cards in hands: 340.
+SEED: 608.
+ TEST FAILED
+
+Iteration 630. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 59
+Actual # of cards in hands: 61.
+SEED: 656.
+ TEST FAILED
+
+Iteration 631. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 86
+Actual # of cards in hands: 88.
+SEED: 179.
+ TEST FAILED
+
+Iteration 632. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 411
+Actual # of cards in hands: 413.
+SEED: 69.
+ TEST FAILED
+
+Iteration 633. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 40
+Actual # of cards in hands: 42.
+SEED: 964.
+ TEST FAILED
+
+Iteration 634. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 261
+Actual # of cards in hands: 263.
+SEED: 316.
+ TEST FAILED
+
+Iteration 635. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 162
+Actual # of cards in hands: 164.
+SEED: 491.
+ TEST FAILED
+
+Iteration 636. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 215
+Actual # of cards in hands: 217.
+SEED: 871.
+ TEST FAILED
+
+Iteration 637. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 929.
+ TEST FAILED
+
+Iteration 638. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 142
+Actual # of cards in hands: 144.
+SEED: 675.
+ TEST FAILED
+
+Iteration 639. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 174
+Actual # of cards in hands: 176.
+SEED: 983.
+ TEST FAILED
+
+Iteration 640. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 223
+Actual # of cards in hands: 225.
+SEED: 122.
+ TEST FAILED
+
+Iteration 641. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 209
+Actual # of cards in hands: 211.
+SEED: 433.
+ TEST FAILED
+
+Iteration 642. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 468
+Actual # of cards in hands: 470.
+SEED: 653.
+ TEST FAILED
+
+Iteration 643. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 465
+Actual # of cards in hands: 467.
+SEED: 557.
+ TEST FAILED
+
+Iteration 644. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 206
+Actual # of cards in hands: 208.
+SEED: 668.
+ TEST FAILED
+
+Iteration 645. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 172
+Actual # of cards in hands: 174.
+SEED: 279.
+ TEST FAILED
+
+Iteration 646. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 340
+Actual # of cards in hands: 342.
+SEED: 308.
+ TEST FAILED
+
+Iteration 647. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 25
+Actual # of cards in hands: 27.
+SEED: 890.
+ TEST FAILED
+
+Iteration 648. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 497
+Actual # of cards in hands: 499.
+SEED: 197.
+ TEST FAILED
+
+Iteration 649. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 199
+Actual # of cards in hands: 201.
+SEED: 240.
+ TEST FAILED
+
+Iteration 650. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 229
+Actual # of cards in hands: 231.
+SEED: 227.
+ TEST FAILED
+
+Iteration 651. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 409
+Actual # of cards in hands: 411.
+SEED: 479.
+ TEST FAILED
+
+Iteration 652. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 265
+Actual # of cards in hands: 267.
+SEED: 278.
+ TEST FAILED
+
+Iteration 653. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 141
+Actual # of cards in hands: 143.
+SEED: 929.
+ TEST FAILED
+
+Iteration 654. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 385
+Actual # of cards in hands: 387.
+SEED: 514.
+ TEST FAILED
+
+Iteration 655. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 436.
+ TEST FAILED
+
+Iteration 656. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 423
+Actual # of cards in hands: 425.
+SEED: 711.
+ TEST FAILED
+
+Iteration 657. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 888.
+ TEST FAILED
+
+Iteration 658. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 44
+Actual # of cards in hands: 46.
+SEED: 268.
+ TEST FAILED
+
+Iteration 659. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 223
+Actual # of cards in hands: 225.
+SEED: 888.
+ TEST FAILED
+
+Iteration 660. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 176
+Actual # of cards in hands: 178.
+SEED: 100.
+ TEST FAILED
+
+Iteration 661. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 456
+Actual # of cards in hands: 458.
+SEED: 539.
+ TEST FAILED
+
+Iteration 662. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 242
+Actual # of cards in hands: 244.
+SEED: 278.
+ TEST FAILED
+
+Iteration 663. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 134
+Actual # of cards in hands: 136.
+SEED: 200.
+ TEST FAILED
+
+Iteration 664. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 440
+Actual # of cards in hands: 442.
+SEED: 916.
+ TEST FAILED
+
+Iteration 665. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 126
+Actual # of cards in hands: 128.
+SEED: 816.
+ TEST FAILED
+
+Iteration 666. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 422
+Actual # of cards in hands: 424.
+SEED: 222.
+ TEST FAILED
+
+Iteration 667. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 372
+Actual # of cards in hands: 374.
+SEED: 112.
+ TEST FAILED
+
+Iteration 668. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 30
+Actual # of cards in hands: 32.
+SEED: 856.
+ TEST FAILED
+
+Iteration 669. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 300
+Actual # of cards in hands: 302.
+SEED: 416.
+ TEST FAILED
+
+Iteration 670. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 485
+Actual # of cards in hands: 487.
+SEED: 335.
+ TEST FAILED
+
+Iteration 671. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 155
+Actual # of cards in hands: 157.
+SEED: 91.
+ TEST FAILED
+
+Iteration 672. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 337
+Actual # of cards in hands: 339.
+SEED: 615.
+ TEST FAILED
+
+Iteration 673. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 424
+Actual # of cards in hands: 426.
+SEED: 75.
+ TEST FAILED
+
+Iteration 674. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 76
+Actual # of cards in hands: 78.
+SEED: 429.
+ TEST FAILED
+
+Iteration 675. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 317
+Actual # of cards in hands: 319.
+SEED: 754.
+ TEST FAILED
+
+Iteration 676. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 233
+Actual # of cards in hands: 235.
+SEED: 572.
+ TEST FAILED
+
+Iteration 677. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 52
+Actual # of cards in hands: 54.
+SEED: 303.
+ TEST FAILED
+
+Iteration 678. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 296
+Actual # of cards in hands: 298.
+SEED: 836.
+ TEST FAILED
+
+Iteration 679. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 141
+Actual # of cards in hands: 143.
+SEED: 69.
+ TEST FAILED
+
+Iteration 680. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 481
+Actual # of cards in hands: 483.
+SEED: 243.
+ TEST FAILED
+
+Iteration 681. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 259
+Actual # of cards in hands: 261.
+SEED: 886.
+ TEST FAILED
+
+Iteration 682. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 100
+Actual # of cards in hands: 102.
+SEED: 828.
+ TEST FAILED
+
+Iteration 683. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 324
+Actual # of cards in hands: 326.
+SEED: 138.
+ TEST FAILED
+
+Iteration 684. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 359
+Actual # of cards in hands: 361.
+SEED: 854.
+ TEST FAILED
+
+Iteration 685. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 394
+Actual # of cards in hands: 396.
+SEED: 743.
+ TEST FAILED
+
+Iteration 686. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 211
+Actual # of cards in hands: 213.
+SEED: 978.
+ TEST FAILED
+
+Iteration 687. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 402
+Actual # of cards in hands: 404.
+SEED: 992.
+ TEST FAILED
+
+Iteration 688. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 431
+Actual # of cards in hands: 433.
+SEED: 225.
+ TEST FAILED
+
+Iteration 689. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 428
+Actual # of cards in hands: 430.
+SEED: 689.
+ TEST FAILED
+
+Iteration 690. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 207
+Actual # of cards in hands: 209.
+SEED: 56.
+ TEST FAILED
+
+Iteration 691. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 181
+Actual # of cards in hands: 183.
+SEED: 595.
+ TEST FAILED
+
+Iteration 692. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 180
+Actual # of cards in hands: 182.
+SEED: 275.
+ TEST FAILED
+
+Iteration 693. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 435
+Actual # of cards in hands: 437.
+SEED: 846.
+ TEST FAILED
+
+Iteration 694. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 182
+Actual # of cards in hands: 184.
+SEED: 470.
+ TEST FAILED
+
+Iteration 695. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 118
+Actual # of cards in hands: 120.
+SEED: 509.
+ TEST FAILED
+
+Iteration 696. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 224
+Actual # of cards in hands: 226.
+SEED: 367.
+ TEST FAILED
+
+Iteration 697. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 249
+Actual # of cards in hands: 251.
+SEED: 413.
+ TEST FAILED
+
+Iteration 698. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 234
+Actual # of cards in hands: 236.
+SEED: 269.
+ TEST FAILED
+
+Iteration 699. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 392
+Actual # of cards in hands: 394.
+SEED: 961.
+ TEST FAILED
+
+Iteration 700. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 133
+Actual # of cards in hands: 135.
+SEED: 201.
+ TEST FAILED
+
+Iteration 701. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 419
+Actual # of cards in hands: 421.
+SEED: 630.
+ TEST FAILED
+
+Iteration 702. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 149
+Actual # of cards in hands: 151.
+SEED: 185.
+ TEST FAILED
+
+Iteration 703. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 335
+Actual # of cards in hands: 337.
+SEED: 329.
+ TEST FAILED
+
+Iteration 704. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 232
+Actual # of cards in hands: 234.
+SEED: 831.
+ TEST FAILED
+
+Iteration 705. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 43
+Actual # of cards in hands: 45.
+SEED: 132.
+ TEST FAILED
+
+Iteration 706. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 378
+Actual # of cards in hands: 380.
+SEED: 301.
+ TEST FAILED
+
+Iteration 707. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 315
+Actual # of cards in hands: 317.
+SEED: 923.
+ TEST FAILED
+
+Iteration 708. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 63
+Actual # of cards in hands: 65.
+SEED: 531.
+ TEST FAILED
+
+Iteration 709. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 323
+Actual # of cards in hands: 325.
+SEED: 527.
+ TEST FAILED
+
+Iteration 710. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 161
+Actual # of cards in hands: 163.
+SEED: 104.
+ TEST FAILED
+
+Iteration 711. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 235
+Actual # of cards in hands: 237.
+SEED: 721.
+ TEST FAILED
+
+Iteration 712. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 166
+Actual # of cards in hands: 168.
+SEED: 610.
+ TEST FAILED
+
+Iteration 713. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 196
+Actual # of cards in hands: 198.
+SEED: 88.
+ TEST FAILED
+
+Iteration 714. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 469
+Actual # of cards in hands: 471.
+SEED: 977.
+ TEST FAILED
+
+Iteration 715. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 330
+Actual # of cards in hands: 332.
+SEED: 742.
+ TEST FAILED
+
+Iteration 716. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 266
+Actual # of cards in hands: 268.
+SEED: 294.
+ TEST FAILED
+
+Iteration 717. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 234
+Actual # of cards in hands: 236.
+SEED: 891.
+ TEST FAILED
+
+Iteration 718. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 470
+Actual # of cards in hands: 472.
+SEED: 997.
+ TEST FAILED
+
+Iteration 719. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 278
+Actual # of cards in hands: 280.
+SEED: 519.
+ TEST FAILED
+
+Iteration 720. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 158
+Actual # of cards in hands: 160.
+SEED: 747.
+ TEST FAILED
+
+Iteration 721. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 22
+Actual # of cards in hands: 24.
+SEED: 464.
+ TEST FAILED
+
+Iteration 722. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 1
+Actual # of cards in hands: 3.
+SEED: 419.
+ TEST FAILED
+
+Iteration 723. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 111
+Actual # of cards in hands: 113.
+SEED: 18.
+ TEST FAILED
+
+Iteration 724. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 374
+Actual # of cards in hands: 376.
+SEED: 639.
+ TEST FAILED
+
+Iteration 725. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 63
+Actual # of cards in hands: 65.
+SEED: 495.
+ TEST FAILED
+
+Iteration 726. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 77
+Actual # of cards in hands: 79.
+SEED: 76.
+ TEST FAILED
+
+Iteration 727. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 440
+Actual # of cards in hands: 442.
+SEED: 472.
+ TEST FAILED
+
+Iteration 728. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 88
+Actual # of cards in hands: 90.
+SEED: 831.
+ TEST FAILED
+
+Iteration 729. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 107
+Actual # of cards in hands: 109.
+SEED: 512.
+ TEST FAILED
+
+Iteration 730. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 106
+Actual # of cards in hands: 108.
+SEED: 74.
+ TEST FAILED
+
+Iteration 731. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 447
+Actual # of cards in hands: 449.
+SEED: 764.
+ TEST FAILED
+
+Iteration 732. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 460
+Actual # of cards in hands: 462.
+SEED: 384.
+ TEST FAILED
+
+Iteration 733. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 261.
+ TEST FAILED
+
+Iteration 734. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 261
+Actual # of cards in hands: 263.
+SEED: 271.
+ TEST FAILED
+
+Iteration 735. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 296
+Actual # of cards in hands: 298.
+SEED: 746.
+ TEST FAILED
+
+Iteration 736. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 67
+Actual # of cards in hands: 69.
+SEED: 746.
+ TEST FAILED
+
+Iteration 737. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 68
+Actual # of cards in hands: 70.
+SEED: 652.
+ TEST FAILED
+
+Iteration 738. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 374
+Actual # of cards in hands: 376.
+SEED: 388.
+ TEST FAILED
+
+Iteration 739. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 403
+Actual # of cards in hands: 405.
+SEED: 835.
+ TEST FAILED
+
+Iteration 740. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 449
+Actual # of cards in hands: 451.
+SEED: 113.
+ TEST FAILED
+
+Iteration 741. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 11
+Actual # of cards in hands: 13.
+SEED: 474.
+ TEST FAILED
+
+Iteration 742. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 70
+Actual # of cards in hands: 72.
+SEED: 363.
+ TEST FAILED
+
+Iteration 743. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 46
+Actual # of cards in hands: 48.
+SEED: 460.
+ TEST FAILED
+
+Iteration 744. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 335
+Actual # of cards in hands: 337.
+SEED: 575.
+ TEST FAILED
+
+Iteration 745. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 3
+Actual # of cards in hands: 5.
+SEED: 891.
+ TEST FAILED
+
+Iteration 746. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 6
+Actual # of cards in hands: 8.
+SEED: 917.
+ TEST FAILED
+
+Iteration 747. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 279
+Actual # of cards in hands: 281.
+SEED: 460.
+ TEST FAILED
+
+Iteration 748. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 358
+Actual # of cards in hands: 360.
+SEED: 835.
+ TEST FAILED
+
+Iteration 749. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 484
+Actual # of cards in hands: 486.
+SEED: 909.
+ TEST FAILED
+
+Iteration 750. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 117
+Actual # of cards in hands: 119.
+SEED: 399.
+ TEST FAILED
+
+Iteration 751. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 363
+Actual # of cards in hands: 365.
+SEED: 200.
+ TEST FAILED
+
+Iteration 752. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 93
+Actual # of cards in hands: 95.
+SEED: 49.
+ TEST FAILED
+
+Iteration 753. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 24
+Actual # of cards in hands: 26.
+SEED: 141.
+ TEST FAILED
+
+Iteration 754. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 455
+Actual # of cards in hands: 457.
+SEED: 197.
+ TEST FAILED
+
+Iteration 755. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 287
+Actual # of cards in hands: 289.
+SEED: 568.
+ TEST FAILED
+
+Iteration 756. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 364
+Actual # of cards in hands: 366.
+SEED: 755.
+ TEST FAILED
+
+Iteration 757. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 218
+Actual # of cards in hands: 220.
+SEED: 474.
+ TEST FAILED
+
+Iteration 758. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 372
+Actual # of cards in hands: 374.
+SEED: 241.
+ TEST FAILED
+
+Iteration 759. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 479
+Actual # of cards in hands: 481.
+SEED: 250.
+ TEST FAILED
+
+Iteration 760. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 137
+Actual # of cards in hands: 139.
+SEED: 768.
+ TEST FAILED
+
+Iteration 761. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 232
+Actual # of cards in hands: 234.
+SEED: 327.
+ TEST FAILED
+
+Iteration 762. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 390
+Actual # of cards in hands: 392.
+SEED: 309.
+ TEST FAILED
+
+Iteration 763. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 24
+Actual # of cards in hands: 26.
+SEED: 126.
+ TEST FAILED
+
+Iteration 764. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 192
+Actual # of cards in hands: 194.
+SEED: 396.
+ TEST FAILED
+
+Iteration 765. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 414
+Actual # of cards in hands: 416.
+SEED: 240.
+ TEST FAILED
+
+Iteration 766. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 310
+Actual # of cards in hands: 312.
+SEED: 531.
+ TEST FAILED
+
+Iteration 767. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 252
+Actual # of cards in hands: 254.
+SEED: 889.
+ TEST FAILED
+
+Iteration 768. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 338
+Actual # of cards in hands: 340.
+SEED: 608.
+ TEST FAILED
+
+Iteration 769. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 157
+Actual # of cards in hands: 159.
+SEED: 606.
+ TEST FAILED
+
+Iteration 770. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 457
+Actual # of cards in hands: 459.
+SEED: 861.
+ TEST FAILED
+
+Iteration 771. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 439
+Actual # of cards in hands: 441.
+SEED: 88.
+ TEST FAILED
+
+Iteration 772. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 10
+Actual # of cards in hands: 12.
+SEED: 34.
+ TEST FAILED
+
+Iteration 773. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 287
+Actual # of cards in hands: 289.
+SEED: 107.
+ TEST FAILED
+
+Iteration 774. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 494
+Actual # of cards in hands: 496.
+SEED: 17.
+ TEST FAILED
+
+Iteration 775. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 277
+Actual # of cards in hands: 279.
+SEED: 988.
+ TEST FAILED
+
+Iteration 776. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 244
+Actual # of cards in hands: 246.
+SEED: 29.
+ TEST FAILED
+
+Iteration 777. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 299
+Actual # of cards in hands: 301.
+SEED: 893.
+ TEST FAILED
+
+Iteration 778. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 90
+Actual # of cards in hands: 92.
+SEED: 368.
+ TEST FAILED
+
+Iteration 779. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 313
+Actual # of cards in hands: 315.
+SEED: 998.
+ TEST FAILED
+
+Iteration 780. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 164
+Actual # of cards in hands: 166.
+SEED: 127.
+ TEST FAILED
+
+Iteration 781. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 500
+Actual # of cards in hands: 502.
+SEED: 176.
+ TEST FAILED
+
+Iteration 782. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 220
+Actual # of cards in hands: 222.
+SEED: 700.
+ TEST FAILED
+
+Iteration 783. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 431
+Actual # of cards in hands: 433.
+SEED: 124.
+ TEST FAILED
+
+Iteration 784. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 254
+Actual # of cards in hands: 256.
+SEED: 592.
+ TEST FAILED
+
+Iteration 785. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 51
+Actual # of cards in hands: 53.
+SEED: 903.
+ TEST FAILED
+
+Iteration 786. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 349
+Actual # of cards in hands: 351.
+SEED: 584.
+ TEST FAILED
+
+Iteration 787. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 180
+Actual # of cards in hands: 182.
+SEED: 319.
+ TEST FAILED
+
+Iteration 788. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 393
+Actual # of cards in hands: 395.
+SEED: 552.
+ TEST FAILED
+
+Iteration 789. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 77
+Actual # of cards in hands: 79.
+SEED: 41.
+ TEST FAILED
+
+Iteration 790. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 419
+Actual # of cards in hands: 421.
+SEED: 908.
+ TEST FAILED
+
+Iteration 791. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 409
+Actual # of cards in hands: 411.
+SEED: 78.
+ TEST FAILED
+
+Iteration 792. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 70
+Actual # of cards in hands: 72.
+SEED: 985.
+ TEST FAILED
+
+Iteration 793. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 156
+Actual # of cards in hands: 158.
+SEED: 312.
+ TEST FAILED
+
+Iteration 794. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 414
+Actual # of cards in hands: 416.
+SEED: 291.
+ TEST FAILED
+
+Iteration 795. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 450
+Actual # of cards in hands: 452.
+SEED: 864.
+ TEST FAILED
+
+Iteration 796. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 322
+Actual # of cards in hands: 324.
+SEED: 32.
+ TEST FAILED
+
+Iteration 797. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 317
+Actual # of cards in hands: 319.
+SEED: 317.
+ TEST FAILED
+
+Iteration 798. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 48
+Actual # of cards in hands: 50.
+SEED: 623.
+ TEST FAILED
+
+Iteration 799. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 276
+Actual # of cards in hands: 278.
+SEED: 561.
+ TEST FAILED
+
+Iteration 800. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 48
+Actual # of cards in hands: 50.
+SEED: 514.
+ TEST FAILED
+
+Iteration 801. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 90
+Actual # of cards in hands: 92.
+SEED: 997.
+ TEST FAILED
+
+Iteration 802. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 273
+Actual # of cards in hands: 275.
+SEED: 670.
+ TEST FAILED
+
+Iteration 803. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 450
+Actual # of cards in hands: 452.
+SEED: 461.
+ TEST FAILED
+
+Iteration 804. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 337
+Actual # of cards in hands: 339.
+SEED: 757.
+ TEST FAILED
+
+Iteration 805. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 466
+Actual # of cards in hands: 468.
+SEED: 422.
+ TEST FAILED
+
+Iteration 806. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 47
+Actual # of cards in hands: 49.
+SEED: 361.
+ TEST FAILED
+
+Iteration 807. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 344
+Actual # of cards in hands: 346.
+SEED: 270.
+ TEST FAILED
+
+Iteration 808. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 114
+Actual # of cards in hands: 116.
+SEED: 827.
+ TEST FAILED
+
+Iteration 809. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 417
+Actual # of cards in hands: 419.
+SEED: 468.
+ TEST FAILED
+
+Iteration 810. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 348
+Actual # of cards in hands: 350.
+SEED: 569.
+ TEST FAILED
+
+Iteration 811. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 123
+Actual # of cards in hands: 125.
+SEED: 451.
+ TEST FAILED
+
+Iteration 812. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 156
+Actual # of cards in hands: 158.
+SEED: 665.
+ TEST FAILED
+
+Iteration 813. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 392
+Actual # of cards in hands: 394.
+SEED: 920.
+ TEST FAILED
+
+Iteration 814. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 331
+Actual # of cards in hands: 333.
+SEED: 363.
+ TEST FAILED
+
+Iteration 815. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 85
+Actual # of cards in hands: 87.
+SEED: 258.
+ TEST FAILED
+
+Iteration 816. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 117
+Actual # of cards in hands: 119.
+SEED: 121.
+ TEST FAILED
+
+Iteration 817. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 79
+Actual # of cards in hands: 81.
+SEED: 888.
+ TEST FAILED
+
+Iteration 818. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 181
+Actual # of cards in hands: 183.
+SEED: 116.
+ TEST FAILED
+
+Iteration 819. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 381
+Actual # of cards in hands: 383.
+SEED: 24.
+ TEST FAILED
+
+Iteration 820. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 33
+Actual # of cards in hands: 35.
+SEED: 863.
+ TEST FAILED
+
+Iteration 821. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 362
+Actual # of cards in hands: 364.
+SEED: 424.
+ TEST FAILED
+
+Iteration 822. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 257
+Actual # of cards in hands: 259.
+SEED: 95.
+ TEST FAILED
+
+Iteration 823. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 130
+Actual # of cards in hands: 132.
+SEED: 601.
+ TEST FAILED
+
+Iteration 824. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 379
+Actual # of cards in hands: 381.
+SEED: 34.
+ TEST FAILED
+
+Iteration 825. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 485
+Actual # of cards in hands: 487.
+SEED: 949.
+ TEST FAILED
+
+Iteration 826. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 181
+Actual # of cards in hands: 183.
+SEED: 227.
+ TEST FAILED
+
+Iteration 827. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 159
+Actual # of cards in hands: 161.
+SEED: 844.
+ TEST FAILED
+
+Iteration 828. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 409.
+ TEST FAILED
+
+Iteration 829. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 78
+Actual # of cards in hands: 80.
+SEED: 260.
+ TEST FAILED
+
+Iteration 830. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 341
+Actual # of cards in hands: 343.
+SEED: 277.
+ TEST FAILED
+
+Iteration 831. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 205
+Actual # of cards in hands: 207.
+SEED: 341.
+ TEST FAILED
+
+Iteration 832. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 364
+Actual # of cards in hands: 366.
+SEED: 666.
+ TEST FAILED
+
+Iteration 833. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 257
+Actual # of cards in hands: 259.
+SEED: 422.
+ TEST FAILED
+
+Iteration 834. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 302
+Actual # of cards in hands: 304.
+SEED: 826.
+ TEST FAILED
+
+Iteration 835. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 467
+Actual # of cards in hands: 469.
+SEED: 681.
+ TEST FAILED
+
+Iteration 836. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 463
+Actual # of cards in hands: 465.
+SEED: 534.
+ TEST FAILED
+
+Iteration 837. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 410
+Actual # of cards in hands: 412.
+SEED: 51.
+ TEST FAILED
+
+Iteration 838. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 339
+Actual # of cards in hands: 341.
+SEED: 964.
+ TEST FAILED
+
+Iteration 839. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 123
+Actual # of cards in hands: 125.
+SEED: 652.
+ TEST FAILED
+
+Iteration 840. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 189
+Actual # of cards in hands: 191.
+SEED: 271.
+ TEST FAILED
+
+Iteration 841. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 495
+Actual # of cards in hands: 497.
+SEED: 178.
+ TEST FAILED
+
+Iteration 842. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 2
+Actual # of cards in hands: 4.
+SEED: 533.
+ TEST FAILED
+
+Iteration 843. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 21
+Actual # of cards in hands: 23.
+SEED: 85.
+ TEST FAILED
+
+Iteration 844. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 13
+Actual # of cards in hands: 15.
+SEED: 73.
+ TEST FAILED
+
+Iteration 845. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 264
+Actual # of cards in hands: 266.
+SEED: 170.
+ TEST FAILED
+
+Iteration 846. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 228.
+ TEST FAILED
+
+Iteration 847. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 104
+Actual # of cards in hands: 106.
+SEED: 501.
+ TEST FAILED
+
+Iteration 848. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 247
+Actual # of cards in hands: 249.
+SEED: 796.
+ TEST FAILED
+
+Iteration 849. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 429
+Actual # of cards in hands: 431.
+SEED: 499.
+ TEST FAILED
+
+Iteration 850. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 411
+Actual # of cards in hands: 413.
+SEED: 677.
+ TEST FAILED
+
+Iteration 851. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 353
+Actual # of cards in hands: 355.
+SEED: 162.
+ TEST FAILED
+
+Iteration 852. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 345
+Actual # of cards in hands: 347.
+SEED: 50.
+ TEST FAILED
+
+Iteration 853. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 156
+Actual # of cards in hands: 158.
+SEED: 141.
+ TEST FAILED
+
+Iteration 854. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 203
+Actual # of cards in hands: 205.
+SEED: 746.
+ TEST FAILED
+
+Iteration 855. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 470
+Actual # of cards in hands: 472.
+SEED: 511.
+ TEST FAILED
+
+Iteration 856. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 397
+Actual # of cards in hands: 399.
+SEED: 866.
+ TEST FAILED
+
+Iteration 857. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 136
+Actual # of cards in hands: 138.
+SEED: 771.
+ TEST FAILED
+
+Iteration 858. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 158
+Actual # of cards in hands: 160.
+SEED: 99.
+ TEST FAILED
+
+Iteration 859. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 172
+Actual # of cards in hands: 174.
+SEED: 450.
+ TEST FAILED
+
+Iteration 860. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 593.
+ TEST FAILED
+
+Iteration 861. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 415
+Actual # of cards in hands: 417.
+SEED: 17.
+ TEST FAILED
+
+Iteration 862. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 94
+Actual # of cards in hands: 96.
+SEED: 549.
+ TEST FAILED
+
+Iteration 863. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 243
+Actual # of cards in hands: 245.
+SEED: 573.
+ TEST FAILED
+
+Iteration 864. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 198
+Actual # of cards in hands: 200.
+SEED: 737.
+ TEST FAILED
+
+Iteration 865. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 931.
+ TEST FAILED
+
+Iteration 866. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 225
+Actual # of cards in hands: 227.
+SEED: 858.
+ TEST FAILED
+
+Iteration 867. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 168
+Actual # of cards in hands: 170.
+SEED: 707.
+ TEST FAILED
+
+Iteration 868. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 188
+Actual # of cards in hands: 190.
+SEED: 731.
+ TEST FAILED
+
+Iteration 869. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 123
+Actual # of cards in hands: 125.
+SEED: 207.
+ TEST FAILED
+
+Iteration 870. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 427
+Actual # of cards in hands: 429.
+SEED: 355.
+ TEST FAILED
+
+Iteration 871. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 18
+Actual # of cards in hands: 20.
+SEED: 463.
+ TEST FAILED
+
+Iteration 872. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 35
+Actual # of cards in hands: 37.
+SEED: 556.
+ TEST FAILED
+
+Iteration 873. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 374
+Actual # of cards in hands: 376.
+SEED: 909.
+ TEST FAILED
+
+Iteration 874. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 141
+Actual # of cards in hands: 143.
+SEED: 527.
+ TEST FAILED
+
+Iteration 875. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 418
+Actual # of cards in hands: 420.
+SEED: 672.
+ TEST FAILED
+
+Iteration 876. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 241
+Actual # of cards in hands: 243.
+SEED: 814.
+ TEST FAILED
+
+Iteration 877. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 481
+Actual # of cards in hands: 483.
+SEED: 827.
+ TEST FAILED
+
+Iteration 878. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 329
+Actual # of cards in hands: 331.
+SEED: 878.
+ TEST FAILED
+
+Iteration 879. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 383
+Actual # of cards in hands: 385.
+SEED: 658.
+ TEST FAILED
+
+Iteration 880. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 97
+Actual # of cards in hands: 99.
+SEED: 634.
+ TEST FAILED
+
+Iteration 881. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 34
+Actual # of cards in hands: 36.
+SEED: 546.
+ TEST FAILED
+
+Iteration 882. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 212
+Actual # of cards in hands: 214.
+SEED: 774.
+ TEST FAILED
+
+Iteration 883. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 251
+Actual # of cards in hands: 253.
+SEED: 577.
+ TEST FAILED
+
+Iteration 884. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 470
+Actual # of cards in hands: 472.
+SEED: 485.
+ TEST FAILED
+
+Iteration 885. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 387
+Actual # of cards in hands: 389.
+SEED: 533.
+ TEST FAILED
+
+Iteration 886. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 346
+Actual # of cards in hands: 348.
+SEED: 807.
+ TEST FAILED
+
+Iteration 887. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 27
+Actual # of cards in hands: 29.
+SEED: 126.
+ TEST FAILED
+
+Iteration 888. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 474
+Actual # of cards in hands: 476.
+SEED: 308.
+ TEST FAILED
+
+Iteration 889. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 83
+Actual # of cards in hands: 85.
+SEED: 150.
+ TEST FAILED
+
+Iteration 890. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 98
+Actual # of cards in hands: 100.
+SEED: 918.
+ TEST FAILED
+
+Iteration 891. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 321
+Actual # of cards in hands: 323.
+SEED: 824.
+ TEST FAILED
+
+Iteration 892. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 313
+Actual # of cards in hands: 315.
+SEED: 761.
+ TEST FAILED
+
+Iteration 893. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 391
+Actual # of cards in hands: 393.
+SEED: 454.
+ TEST FAILED
+
+Iteration 894. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 115
+Actual # of cards in hands: 117.
+SEED: 407.
+ TEST FAILED
+
+Iteration 895. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 240
+Actual # of cards in hands: 242.
+SEED: 651.
+ TEST FAILED
+
+Iteration 896. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 13
+Actual # of cards in hands: 15.
+SEED: 224.
+ TEST FAILED
+
+Iteration 897. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 167
+Actual # of cards in hands: 169.
+SEED: 21.
+ TEST FAILED
+
+Iteration 898. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 136
+Actual # of cards in hands: 138.
+SEED: 216.
+ TEST FAILED
+
+Iteration 899. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 15
+Actual # of cards in hands: 17.
+SEED: 714.
+ TEST FAILED
+
+Iteration 900. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 104
+Actual # of cards in hands: 106.
+SEED: 681.
+ TEST FAILED
+
+Iteration 901. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 54
+Actual # of cards in hands: 56.
+SEED: 886.
+ TEST FAILED
+
+Iteration 902. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 423
+Actual # of cards in hands: 425.
+SEED: 637.
+ TEST FAILED
+
+Iteration 903. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 236
+Actual # of cards in hands: 238.
+SEED: 421.
+ TEST FAILED
+
+Iteration 904. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 423
+Actual # of cards in hands: 425.
+SEED: 159.
+ TEST FAILED
+
+Iteration 905. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 385
+Actual # of cards in hands: 387.
+SEED: 53.
+ TEST FAILED
+
+Iteration 906. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 186
+Actual # of cards in hands: 188.
+SEED: 284.
+ TEST FAILED
+
+Iteration 907. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 203
+Actual # of cards in hands: 205.
+SEED: 999.
+ TEST FAILED
+
+Iteration 908. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 266
+Actual # of cards in hands: 268.
+SEED: 343.
+ TEST FAILED
+
+Iteration 909. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 53
+Actual # of cards in hands: 55.
+SEED: 925.
+ TEST FAILED
+
+Iteration 910. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 282
+Actual # of cards in hands: 284.
+SEED: 568.
+ TEST FAILED
+
+Iteration 911. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 46
+Actual # of cards in hands: 48.
+SEED: 52.
+ TEST FAILED
+
+Iteration 912. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 67
+Actual # of cards in hands: 69.
+SEED: 640.
+ TEST FAILED
+
+Iteration 913. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 101
+Actual # of cards in hands: 103.
+SEED: 424.
+ TEST FAILED
+
+Iteration 914. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 80
+Actual # of cards in hands: 82.
+SEED: 793.
+ TEST FAILED
+
+Iteration 915. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 256
+Actual # of cards in hands: 258.
+SEED: 15.
+ TEST FAILED
+
+Iteration 916. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 296
+Actual # of cards in hands: 298.
+SEED: 977.
+ TEST FAILED
+
+Iteration 917. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 385
+Actual # of cards in hands: 387.
+SEED: 897.
+ TEST FAILED
+
+Iteration 918. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 371
+Actual # of cards in hands: 373.
+SEED: 698.
+ TEST FAILED
+
+Iteration 919. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 211
+Actual # of cards in hands: 213.
+SEED: 842.
+ TEST FAILED
+
+Iteration 920. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 165
+Actual # of cards in hands: 167.
+SEED: 312.
+ TEST FAILED
+
+Iteration 921. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 363
+Actual # of cards in hands: 365.
+SEED: 909.
+ TEST FAILED
+
+Iteration 922. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 121
+Actual # of cards in hands: 123.
+SEED: 547.
+ TEST FAILED
+
+Iteration 923. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 359
+Actual # of cards in hands: 361.
+SEED: 593.
+ TEST FAILED
+
+Iteration 924. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 294
+Actual # of cards in hands: 296.
+SEED: 258.
+ TEST FAILED
+
+Iteration 925. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 189
+Actual # of cards in hands: 191.
+SEED: 714.
+ TEST FAILED
+
+Iteration 926. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 63
+Actual # of cards in hands: 65.
+SEED: 519.
+ TEST FAILED
+
+Iteration 927. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 320
+Actual # of cards in hands: 322.
+SEED: 440.
+ TEST FAILED
+
+Iteration 928. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 244
+Actual # of cards in hands: 246.
+SEED: 223.
+ TEST FAILED
+
+Iteration 929. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 497
+Actual # of cards in hands: 499.
+SEED: 57.
+ TEST FAILED
+
+Iteration 930. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 122
+Actual # of cards in hands: 124.
+SEED: 458.
+ TEST FAILED
+
+Iteration 931. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 345
+Actual # of cards in hands: 347.
+SEED: 636.
+ TEST FAILED
+
+Iteration 932. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 25
+Actual # of cards in hands: 27.
+SEED: 684.
+ TEST FAILED
+
+Iteration 933. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 71
+Actual # of cards in hands: 73.
+SEED: 889.
+ TEST FAILED
+
+Iteration 934. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 335
+Actual # of cards in hands: 337.
+SEED: 600.
+ TEST FAILED
+
+Iteration 935. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 144
+Actual # of cards in hands: 146.
+SEED: 667.
+ TEST FAILED
+
+Iteration 936. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 255
+Actual # of cards in hands: 257.
+SEED: 528.
+ TEST FAILED
+
+Iteration 937. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 165
+Actual # of cards in hands: 167.
+SEED: 128.
+ TEST FAILED
+
+Iteration 938. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 24
+Actual # of cards in hands: 26.
+SEED: 644.
+ TEST FAILED
+
+Iteration 939. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 486
+Actual # of cards in hands: 488.
+SEED: 341.
+ TEST FAILED
+
+Iteration 940. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 490
+Actual # of cards in hands: 492.
+SEED: 779.
+ TEST FAILED
+
+Iteration 941. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 273
+Actual # of cards in hands: 275.
+SEED: 457.
+ TEST FAILED
+
+Iteration 942. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 274
+Actual # of cards in hands: 276.
+SEED: 55.
+ TEST FAILED
+
+Iteration 943. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 174
+Actual # of cards in hands: 176.
+SEED: 78.
+ TEST FAILED
+
+Iteration 944. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 272
+Actual # of cards in hands: 274.
+SEED: 185.
+ TEST FAILED
+
+Iteration 945. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 348
+Actual # of cards in hands: 350.
+SEED: 33.
+ TEST FAILED
+
+Iteration 946. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 474
+Actual # of cards in hands: 476.
+SEED: 149.
+ TEST FAILED
+
+Iteration 947. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 195
+Actual # of cards in hands: 197.
+SEED: 741.
+ TEST FAILED
+
+Iteration 948. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 85
+Actual # of cards in hands: 87.
+SEED: 39.
+ TEST FAILED
+
+Iteration 949. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 243
+Actual # of cards in hands: 245.
+SEED: 292.
+ TEST FAILED
+
+Iteration 950. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 170
+Actual # of cards in hands: 172.
+SEED: 938.
+ TEST FAILED
+
+Iteration 951. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 252
+Actual # of cards in hands: 254.
+SEED: 512.
+ TEST FAILED
+
+Iteration 952. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 67
+Actual # of cards in hands: 69.
+SEED: 796.
+ TEST FAILED
+
+Iteration 953. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 402
+Actual # of cards in hands: 404.
+SEED: 682.
+ TEST FAILED
+
+Iteration 954. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 384
+Actual # of cards in hands: 386.
+SEED: 677.
+ TEST FAILED
+
+Iteration 955. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 234
+Actual # of cards in hands: 236.
+SEED: 989.
+ TEST FAILED
+
+Iteration 956. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 183
+Actual # of cards in hands: 185.
+SEED: 444.
+ TEST FAILED
+
+Iteration 957. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 293
+Actual # of cards in hands: 295.
+SEED: 696.
+ TEST FAILED
+
+Iteration 958. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 262
+Actual # of cards in hands: 264.
+SEED: 17.
+ TEST FAILED
+
+Iteration 959. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 463
+Actual # of cards in hands: 465.
+SEED: 182.
+ TEST FAILED
+
+Iteration 960. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 17
+Actual # of cards in hands: 19.
+SEED: 387.
+ TEST FAILED
+
+Iteration 961. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 93
+Actual # of cards in hands: 95.
+SEED: 184.
+ TEST FAILED
+
+Iteration 962. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 441
+Actual # of cards in hands: 443.
+SEED: 559.
+ TEST FAILED
+
+Iteration 963. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 401
+Actual # of cards in hands: 403.
+SEED: 26.
+ TEST FAILED
+
+Iteration 964. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 76
+Actual # of cards in hands: 78.
+SEED: 751.
+ TEST FAILED
+
+Iteration 965. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 192
+Actual # of cards in hands: 194.
+SEED: 313.
+ TEST FAILED
+
+Iteration 966. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 400
+Actual # of cards in hands: 402.
+SEED: 413.
+ TEST FAILED
+
+Iteration 967. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 390
+Actual # of cards in hands: 392.
+SEED: 432.
+ TEST FAILED
+
+Iteration 968. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 341
+Actual # of cards in hands: 343.
+SEED: 219.
+ TEST FAILED
+
+Iteration 969. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 426
+Actual # of cards in hands: 428.
+SEED: 706.
+ TEST FAILED
+
+Iteration 970. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 357
+Actual # of cards in hands: 359.
+SEED: 215.
+ TEST FAILED
+
+Iteration 971. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 211
+Actual # of cards in hands: 213.
+SEED: 578.
+ TEST FAILED
+
+Iteration 972. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 138
+Actual # of cards in hands: 140.
+SEED: 75.
+ TEST FAILED
+
+Iteration 973. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 33
+Actual # of cards in hands: 35.
+SEED: 795.
+ TEST FAILED
+
+Iteration 974. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 333
+Actual # of cards in hands: 335.
+SEED: 775.
+ TEST FAILED
+
+Iteration 975. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 433
+Actual # of cards in hands: 435.
+SEED: 759.
+ TEST FAILED
+
+Iteration 976. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 50
+Actual # of cards in hands: 52.
+SEED: 827.
+ TEST FAILED
+
+Iteration 977. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 114
+Actual # of cards in hands: 116.
+SEED: 791.
+ TEST FAILED
+
+Iteration 978. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 211
+Actual # of cards in hands: 213.
+SEED: 192.
+ TEST FAILED
+
+Iteration 979. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 95
+Actual # of cards in hands: 97.
+SEED: 19.
+ TEST FAILED
+
+Iteration 980. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 143
+Actual # of cards in hands: 145.
+SEED: 989.
+ TEST FAILED
+
+Iteration 981. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 156
+Actual # of cards in hands: 158.
+SEED: 539.
+ TEST FAILED
+
+Iteration 982. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 165
+Actual # of cards in hands: 167.
+SEED: 473.
+ TEST FAILED
+
+Iteration 983. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 193
+Actual # of cards in hands: 195.
+SEED: 367.
+ TEST FAILED
+
+Iteration 984. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 109
+Actual # of cards in hands: 111.
+SEED: 317.
+ TEST FAILED
+
+Iteration 985. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 238
+Actual # of cards in hands: 240.
+SEED: 847.
+ TEST FAILED
+
+Iteration 986. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 130
+Actual # of cards in hands: 132.
+SEED: 928.
+ TEST FAILED
+
+Iteration 987. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 12
+Actual # of cards in hands: 14.
+SEED: 799.
+ TEST FAILED
+
+Iteration 988. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 34
+Actual # of cards in hands: 36.
+SEED: 658.
+ TEST FAILED
+
+Iteration 989. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 448
+Actual # of cards in hands: 450.
+SEED: 202.
+ TEST FAILED
+
+Iteration 990. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 15
+Actual # of cards in hands: 17.
+SEED: 451.
+ TEST FAILED
+
+Iteration 991. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 207
+Actual # of cards in hands: 209.
+SEED: 732.
+ TEST FAILED
+
+Iteration 992. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 43
+Actual # of cards in hands: 45.
+SEED: 541.
+ TEST FAILED
+
+Iteration 993. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 59
+Actual # of cards in hands: 61.
+SEED: 47.
+ TEST FAILED
+
+Iteration 994. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 419
+Actual # of cards in hands: 421.
+SEED: 909.
+ TEST FAILED
+
+Iteration 995. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 425
+Actual # of cards in hands: 427.
+SEED: 809.
+ TEST FAILED
+
+Iteration 996. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 299
+Actual # of cards in hands: 301.
+SEED: 166.
+ TEST FAILED
+
+Iteration 997. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 239
+Actual # of cards in hands: 241.
+SEED: 636.
+ TEST FAILED
+
+Iteration 998. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 147
+Actual # of cards in hands: 149.
+SEED: 17.
+ TEST FAILED
+
+Iteration 999. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 209
+Actual # of cards in hands: 211.
+SEED: 336.
+ TEST FAILED
+
+Iteration 1000. TEST 1: Current player should receive one extra card:
+Expected # of cards in hands: 496
+Actual # of cards in hands: 498.
+SEED: 604.
+ TEST FAILED
+
+
+********************************
+Village card tests completed.
+Total Iterations: 1000
+Total Tests: 5000
+Tests Failed: 1000
+Tests Succeeded: 4000
+
