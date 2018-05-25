@@ -37,5 +37,113 @@ public class UrlValidatorTest extends TestCase {
 
     public void testIsValid() {
         //You can use this function for programming based testing
+    	
+    	UrlValidator validator = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+    	
+    	//Create string from arrays of query parts
+    	ResultPair[] urlArr = {
+    			new ResultPair("http://", true),
+    			new ResultPair("https://", true),
+    			new ResultPair("ftp://", true),
+    			new ResultPair("file://", true),
+    			new ResultPair("", true),
+    			new ResultPair("gibberish://", false),
+    			new ResultPair("/", false),
+    			new ResultPair(":", false)
+    	};
+    	
+    	ResultPair[] authorityArr = {
+    			new ResultPair("www.google.com", true),
+    			new ResultPair("google.com", true),
+    			new ResultPair("www.usa.gov", true),
+    			new ResultPair("usa.gov", true),
+    			new ResultPair("www.wordpress.org", true),
+    			new ResultPair("wordpress.org", true),
+    			new ResultPair("255.255.255.0", true),
+    			new ResultPair("www.google.co.uk", true),
+    			new ResultPair("www.google.co.uk", true),
+    			new ResultPair("developer.amazon.com", true),
+    			new ResultPair(".www.google.com", false),
+    			new ResultPair("www.google.com.", false),
+    			new ResultPair("singleword", false),
+    			new ResultPair("", false),
+    			new ResultPair("256.0.0.0", false),
+    			new ResultPair("0.0.0.256", false),
+    			new ResultPair("128.12.46.5.15", false),
+    	};
+    	
+    	ResultPair[] portArr = {
+    			new ResultPair(":656", true),
+    			new ResultPair(":0", true),
+    			new ResultPair(":65535", true),
+    			new ResultPair("", true),
+    			new ResultPair(":-1", false),
+    			new ResultPair(":65636", false),
+    			new ResultPair(":word", false),
+    			new ResultPair("word", false)
+    	};
+    	
+    	ResultPair [] pathArr = {
+    			new ResultPair("", true),
+    			new ResultPair("/word", true),
+                new ResultPair("/12345", true),
+                new ResultPair("/~", true),
+                new ResultPair("/word/12345", true),
+                new ResultPair("/word/12345/test123", true),
+                new ResultPair("noslash", false),
+                new ResultPair("//", false),
+                new ResultPair("/word/", true),
+                new ResultPair("/validstart//", false),
+                new ResultPair("./notvalid", false)
+    	};
+    	
+    	// Iterate over all permutations of strings
+    	int[] position = new int[]{0, 0, 0, 0};
+    	int failed = 0;
+    	int tests = urlArr.length * authorityArr.length * portArr.length * pathArr.length;
+    	
+    	for (int i = 0; i < tests; i++) {
+    		
+    		// Update position counters
+    		position[0]++;
+    		if (i % (urlArr.length) == 0) {
+    			position[0] = 0;
+    			position[1]++;
+    		}
+    		if (i % (urlArr.length * authorityArr.length) == 0) {
+    			position[0] = 0;
+    			position[1] = 0;
+    			position[2]++;
+    		}
+    		if (i % (urlArr.length * authorityArr.length * portArr.length) == 0) {
+    			position[0] = 0;
+    			position[1] = 0;
+    			position[2] = 0;
+    			position[3]++;
+    		}
+    		
+    		// Build the strings
+    		StringBuilder testUrl = new StringBuilder();
+    		testUrl.append(urlArr[position[0]].item);
+    		testUrl.append(authorityArr[position[1]].item);
+    		testUrl.append(portArr[position[2]].item);
+    		testUrl.append(pathArr[position[3]].item);
+    		String url = testUrl.toString();
+    		
+    		// Get expected results based on test parts
+    		boolean expected = urlArr[position[0]].valid && authorityArr[position[1]].valid && portArr[position[2]].valid && pathArr[position[3]].valid;
+    		// Get result from isValid
+    		boolean result = validator.isValid(url);
+    		
+    		// Print test results
+    		if (expected != result) {
+    			System.out.println("FAILED: " + url);
+    			failed++;
+    		} else {
+    			System.out.println("SUCCESS: " + url);
+    		}
+    	}
+    	
+    	System.out.println("RESULTS: " + failed + " of " + tests + " failed.");
     }
 }
