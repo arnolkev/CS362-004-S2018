@@ -45,7 +45,6 @@ public class UrlValidatorTest extends TestCase {
     			new ResultPair("http://", true),
     			new ResultPair("https://", true),
     			new ResultPair("ftp://", true),
-    			new ResultPair("file://", true),
     			new ResultPair("", true),
     			new ResultPair("gibberish://", false),
     			new ResultPair("/", false),
@@ -93,16 +92,16 @@ public class UrlValidatorTest extends TestCase {
                 new ResultPair("noslash", false),
                 new ResultPair("//", false),
                 new ResultPair("/word/", true),
-                new ResultPair("/validstart//", false),
-                new ResultPair("./notvalid", false)
+                new ResultPair("/validstart//", false)
     	};
     	
     	// Iterate over all permutations of strings
     	int[] position = new int[]{0, 0, 0, 0};
     	int failed = 0;
+    	int i = 0;
     	int tests = urlArr.length * authorityArr.length * portArr.length * pathArr.length;
     	
-    	for (int i = 0; i < tests; i++) {
+    	while(true) {
     		
     		// Update position counters
     		position[0]++;
@@ -120,6 +119,8 @@ public class UrlValidatorTest extends TestCase {
     			position[1] = 0;
     			position[2] = 0;
     			position[3]++;
+    			
+    			if (position[3] >= pathArr.length) break;
     		}
     		
     		// Build the strings
@@ -142,8 +143,8 @@ public class UrlValidatorTest extends TestCase {
     		} else {
     			System.out.println("SUCCESS: " + url);
     		}
+    		i++;
     	}
-    	
     	System.out.println("RESULTS: " + failed + " of " + tests + " failed.");
     }
 }
